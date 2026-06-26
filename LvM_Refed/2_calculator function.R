@@ -206,10 +206,11 @@ func.stoicEMU <- function(
   target.EMU <- c(
     # Blood
     "Glc.Blood_123456", "Lac.Blood_123", "Ala.Blood_123", "Glycerol.Blood_123", "HB.Blood_1234", "Gln.Blood_12345",
-    "Palm.Blood_12", "Ole.Blood_12", "Lino.Blood_12",
+    # "Palm.Blood_12", "Ole.Blood_12", "Lino.Blood_12",
+    
     # tissue
-    "Suc.Lv_1234", "Mal.Lv_1234", "aKG.Lv_12345" # "Cit.Lv_123456", 
-    # "Suc.M_1234", "Mal.M_1234",
+    # "Suc.Lv_1234", "Mal.Lv_1234" , "aKG.Lv_12345" 
+    "Suc.M_1234", "Mal.M_1234"
     
     # CO2
     # "CO2.Blood_1"
@@ -223,11 +224,11 @@ func.stoicEMU <- function(
   substrate <- c("srcAcCoA", "Glycogen.Lv", "Glycogen.M", "TAG.W", "protein") # global
   substrate <- c(substrate, myTracer) # add the tracer input
   
-  # add amino acid input from the portal system
-  portalAAs <- c(
-    "Ala.hp", "Ser.hp", "Thr.hp", "Trp.hp", "Ile.hp", "Leu.hp",
-    "Lys.hp", "Phe.hp", "Tyr.hp", "Arg.hp", "Glu.hp", "Gln.hp", "Val.hp", "Asp.hp")
-  substrate <- c(substrate, portalAAs)
+  # # add amino acid input from the portal system
+  # portalAAs <- c(
+  #   "Ala.hp", "Ser.hp", "Thr.hp", "Trp.hp", "Ile.hp", "Leu.hp",
+  #   "Lys.hp", "Phe.hp", "Tyr.hp", "Arg.hp", "Glu.hp", "Gln.hp", "Val.hp", "Asp.hp")
+  # substrate <- c(substrate, portalAAs)
   
   
   # !!! IMPORTANT: for 13C dietary protein tracing, add the arbitrary tracer (placeholder) to the substrate,
