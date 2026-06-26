@@ -16,7 +16,7 @@ time.EMU.Start <- Sys.time(); time.EMU.Start
 
 ## Set up the Parallel Environment
 # Set up the cluster with four workers (adjust if necessary), and print progress in the console
-cl <- makeCluster(5,  outfile = "")
+cl <- makeCluster(9,  outfile = "")
 
 # Make libraries accessible to each working node
 clusterEvalQ(cl, {

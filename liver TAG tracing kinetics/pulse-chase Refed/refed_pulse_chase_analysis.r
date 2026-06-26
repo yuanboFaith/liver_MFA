@@ -248,13 +248,17 @@ d.dataForMFA.SCFA %>%
   geom_col() + facet_wrap(~m.id)
 
 
+d.dataForMFA.TAGkinetics$m.id %>% unique()
+
+
+
 save(d.dataForMFA.TAGkinetics, file = "../../data/data_section_TAGkinetics.RData") 
 
 
 
 d.dataForMFA.TAGkinetics %>% filter(Compound == "Lino") %>% tail()
 d.dataForMFA.TAGkinetics$Compound %>% unique()
-d.dataForMFA.TAGkinetics %>% filter(Infusate == "13CLinoA")
+
 
 
 

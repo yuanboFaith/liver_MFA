@@ -94,8 +94,11 @@ f.all <- list(c(f1, f2), c(f5, f6), c(f9, f10), c(f11, f12))
 
 # Create a cluster
 cl <- makeCluster( 
-  # if mac, use 6 cores at max; otherwise if lab computer use 20 cores
-  ifelse(.Platform$OS.type == "unix", min(length(f.all), 6), 20), 
+  # # if mac, use 6 cores at max; otherwise if lab computer use 20 cores
+  # ifelse(.Platform$OS.type == "unix", min(length(f.all), 6), 20), 
+  
+  length(f.all),
+  
   # if mac, print progress in console; otherwise if lab computer windows save progress in txt file
   outfile = ifelse(.Platform$OS.type == "unix", "", "log_CI.txt") )  
 

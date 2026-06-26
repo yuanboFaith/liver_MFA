@@ -2,7 +2,7 @@ library(readxl)
 library(tidyverse)
 rm(list = ls())
 
-rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd()
+rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd(); getwd()
 
 
 
@@ -370,7 +370,7 @@ func.plot.CI <- function(L.limit = 0, R.limit = 500, shiftName = 40) {
           axis.title.x = element_blank()
     ) +
     labs(y = "confidence interval (nmol products / g BW / min)", x = NULL) +
-    coord_flip(expand = expansion(add = 1), clip = "off") +
+    coord_flip( clip = "off") +
     scale_x_discrete(limits = rev, expand = expansion(add = .2)) %>% 
   return()
   

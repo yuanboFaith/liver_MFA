@@ -1,1 +1,21 @@
-Time difference of 33.84471 mins
+Time difference of 2.003239 hours
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: In addition: Warning message:
+Warning message:
+as built under R version 4.4.3 
+package 'Ryacas' was built under R version 4.4.3 
+Execution halted
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: Warning message:
+package 'Ryacas' was built under R version 4.4.3 
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+In addition: Warning message:
+package 'Ryacas' was built under R version 4.4.3 
+Execution halted

@@ -109,7 +109,7 @@ length(f.all)
 
 # Create a cluster
 cl <- makeCluster( 
-  ifelse(.Platform$OS.type == "unix", 6, 20), # if mac, use 6 cores; otherwise if lab computer use 20 cores
+  ifelse(.Platform$OS.type == "unix", 6, 25), # if mac, use 6 cores; otherwise if lab computer use 25 cores
   outfile = ifelse(.Platform$OS.type == "unix", "", "log_CI.txt") )  
 
 

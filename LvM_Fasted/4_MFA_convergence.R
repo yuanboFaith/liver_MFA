@@ -435,7 +435,7 @@ func.process_tracer <- function(tracer.k) {
 
 
 # Create a cluster
-cl <- makeCluster(5, outfile = "" )  
+cl <- makeCluster(9, outfile = "" )  
 
 # Make libraries accessible to each working node
 clusterEvalQ(cl, {

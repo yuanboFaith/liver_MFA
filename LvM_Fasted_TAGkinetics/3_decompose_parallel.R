@@ -16,7 +16,7 @@ time.EMU.Start <- Sys.time(); time.EMU.Start
 
 ## Set up the Parallel Environment
 # Set up the cluster with four workers (adjust if necessary), and print progress in the console
-cl <- makeCluster(6,  outfile = "")
+cl <- makeCluster(9+11+1,  outfile = "")
 
 # Make libraries accessible to each working node
 clusterEvalQ(cl, {
@@ -69,7 +69,7 @@ if (state_fasted.or.refed == "fasted") {
     "13CHB"       = list(myTracer = "13CHB",       tracerInputRate = 4),
     
     
-    # # N = 15
+    # # N = 11
     # # # an "artificial tracer" placeholder for TAG kinetics assay
     "13CLinoKinA"  = list(myTracer = "13CLinoKinA",     tracerInputRate = 0),
     "13CLinoKinB"  = list(myTracer = "13CLinoKinB",     tracerInputRate = 0),
