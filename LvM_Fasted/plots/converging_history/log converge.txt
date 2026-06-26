@@ -1,0 +1,18 @@
+iteration steps 16; Time spent to converge 1.44 min; cost at terminal step 0.12576586 
+iteration steps 22; Time spent to converge 1.9 min; cost at terminal step 0.20941846 
+iteration steps 15; Time spent to converge 1.28 min; cost at terminal step 0.12468326 
+iteration steps 16; Time spent to converge 1.41 min; cost at terminal step 0.22767118 
+iteration steps 15; Time spent to converge 1.34 min; cost at terminal step 0.12469028 
+iteration steps 23; Time spent to converge 2.01 min; cost at terminal step 0.12467442 
+iteration steps 25; Time spent to converge 2.16 min; cost at terminal step 0.18783339 
+iteration steps 25; Time spent to converge 2.18 min; cost at terminal step 0.16858232 
+iteration steps 16; Time spent to converge 1.43 min; cost at terminal step 0.12471811 
+iteration steps 15; Time spent to converge 1.35 min; cost at terminal step 0.12575727 
+iteration steps 25; Time spent to converge 2.18 min; cost at terminal step 0.18783339 
+iteration steps 21; Time spent to converge 1.82 min; cost at terminal step 0.12468131 
+iteration steps 15; Time spent to converge 1.33 min; cost at terminal step 0.1246903 
+iteration steps 25; Time spent to converge 2.17 min; cost at terminal step 0.21875253 
+iteration steps 16; Time spent to converge 1.42 min; cost at terminal step 0.12577645 
+
+
+ Congrats! Selected the best repeat with the minimal cost: repeat_6 

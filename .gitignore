@@ -1,0 +1,15 @@
+.DS_Store
+**/.DS_Store
+
+.Rhistory
+.RData
+.Rproj.user/
+
+~$*
+*.tmp
+*.log
+
+manuscript/
+Inulin tracing/
+Amino acid tracing/
+13CO2/
