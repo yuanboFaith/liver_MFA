@@ -98,13 +98,14 @@ if (state_fasted.or.refed == "refed") {
     "13CLinoKinB"  = list(myTracer = "13CLinoKinB",    tracerInputRate = 0),
     "13CLinoKinC"  = list(myTracer = "13CLinoKinC",    tracerInputRate = 0),
     "13CLinoKinD"  = list(myTracer = "13CLinoKinD",    tracerInputRate = 0),
-    "13CLinoKinE"  = list(myTracer = "13CLinoKinE",    tracerInputRate = 0),
-    "13CLinoKinF"  = list(myTracer = "13CLinoKinF",    tracerInputRate = 0),
-    "13CLinoKinG"  = list(myTracer = "13CLinoKinG",    tracerInputRate = 0),
     "13CLinoKinH"  = list(myTracer = "13CLinoKinH",    tracerInputRate = 0),
     "13CLinoKinI"  = list(myTracer = "13CLinoKinI",    tracerInputRate = 0),
-    "13CLinoKinJ"  = list(myTracer = "13CLinoKinJ",    tracerInputRate = 0),
-    
+    "13CLinoKinO"  = list(myTracer = "13CLinoKinO",    tracerInputRate = 0),
+    "13CLinoKinP"  = list(myTracer = "13CLinoKinP",    tracerInputRate = 0),
+    "13CLinoKinQ"  = list(myTracer = "13CLinoKinQ",    tracerInputRate = 0),
+    "13CLinoKinR"  = list(myTracer = "13CLinoKinR",    tracerInputRate = 0),
+    "13CLinoKinS"  = list(myTracer = "13CLinoKinS",    tracerInputRate = 0),
+    "13CLinoKinT"  = list(myTracer = "13CLinoKinT",    tracerInputRate = 0),
     
     # N=8
     # # an "artificial tracer" for dietary amino acids to fit into the computation structure 
