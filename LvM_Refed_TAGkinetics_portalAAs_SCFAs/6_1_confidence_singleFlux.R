@@ -114,7 +114,7 @@ message(length(f.all), " reactions of interested remaining to be calculated")
 length(f.all)
 
 # Create a cluster
-cl <- makeCluster( min (length(f.all), detectCores() - 5 ), outfile = "log_CI.txt")  
+cl <- makeCluster( min (length(f.all), detectCores() - 9 ), outfile = "log_CI.txt")  
 
 
 # Make libraries accessible to each working node
