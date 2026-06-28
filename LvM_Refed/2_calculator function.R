@@ -25,7 +25,7 @@ rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd(); getwd()
 
 load("1_Supplement_functions.RData")
 
-filePath <- "LvM_refed_TAGkinetics_hpAAs_SCFAs.xlsx"
+filePath <- "LvM_refed.xlsx"
 
 # sheet of global carbon transitions of the metabolic network (independent of tracing design)
 reaction_data0 <- read_excel(filePath, sheet = "LvM") %>% select(1:3)
@@ -34,7 +34,17 @@ tail(reaction_data0)
 # sheet of carbon transition of tracer input; in 'func.stoicEMU()', a row will be selected based on the specified tracer name, and bind to the bottom of the global transition sheet
 infusion_data <- read_excel(filePath, sheet = "tracing") %>% select(1:4)
 
+
+
+# load the refed full set of data, but only use a fraction of the labeling data (Tony's Cell Metab. data for fitting)
+# it is 'l.stoich.EMU_allTracers' that defines the tracers actually used for fitting, and 
+# l.stoich.EMU_allTracers is defined by '3_decompose_parallel.R' where tracers used for fitting are explicitly specified
+
 load("../data/cleaned_labeling_data_TAGkinetics_hpAA-SCFA.RData")
+
+
+
+
 
 
 func.stoicEMU <- function(
@@ -207,10 +217,11 @@ func.stoicEMU <- function(
   target.EMU <- c(
     # Blood
     "Glc.Blood_123456", "Lac.Blood_123", "Ala.Blood_123", "Glycerol.Blood_123", "HB.Blood_1234", "Gln.Blood_12345",
-    # "Palm.Blood_12", "Ole.Blood_12", 
-    "Lino.Blood_12",
+    
+    # "Palm.Blood_12", "Ole.Blood_12", "Lino.Blood_12",
+    
     # tissue
-    "Suc.Lv_1234", "Mal.Lv_1234" # "aKG.Lv_12345" # "Cit.Lv_123456", 
+    "Suc.Lv_1234", "Mal.Lv_1234" # , "aKG.Lv_12345" # "Cit.Lv_123456", 
     # "Suc.M_1234", "Mal.M_1234",
     
     # CO2
@@ -226,33 +237,33 @@ func.stoicEMU <- function(
   substrate <- c(substrate, myTracer) # add the tracer input
   
   
-  # Special cases 
-  # A) add hepatic TAG TAGLino as substrate into the system
-  # Note: without Lino.Blood->TAGLino in the network so these two inputs are decoupled
-  substrate <- c(substrate, "TAGLino.Lv")
+  # # Special cases 
+  # # A) add hepatic TAG TAGLino as substrate into the system
+  # # Note: without Lino.Blood->TAGLino in the network so these two inputs are decoupled
+  # substrate <- c(substrate, "TAGLino.Lv")
   
   
   
-  # B) add amino acid input from the portal system
-  portalAAs <- c(
-    "Ala.hp", "Ser.hp", "Thr.hp", "Trp.hp", "Ile.hp", "Leu.hp",
-    "Lys.hp", "Phe.hp", "Tyr.hp", "Arg.hp", "Glu.hp", "Gln.hp", "Val.hp", "Asp.hp")
-  substrate <- c(substrate, portalAAs)
+  # # B) add amino acid input from the portal system
+  # portalAAs <- c(
+  #   "Ala.hp", "Ser.hp", "Thr.hp", "Trp.hp", "Ile.hp", "Leu.hp",
+  #   "Lys.hp", "Phe.hp", "Tyr.hp", "Arg.hp", "Glu.hp", "Gln.hp", "Val.hp", "Asp.hp")
+  # substrate <- c(substrate, portalAAs)
   
   
   
-  # C) add SCFAs input from the portal system
-  portalSCFAs <- c("Acetate.hp") 
-  substrate <- c(substrate, portalSCFAs)
+  # # C) add SCFAs input from the portal system
+  # portalSCFAs <- c("Acetate.hp") 
+  # substrate <- c(substrate, portalSCFAs)
   
   
   
-  # !!! IMPORTANT: for TAG kinetics/13C dietary protein/13C Fiber tracing, add the arbitrary tracer (placeholder) to the substrate,
-  # so as not to search the carbon transition in the metabolic network; 
-  # the tracer has to be an intermediary metabolite; otherwise if being an arbitrary name, include it as substrate (the starting material)
-  if (str_detect(myTracer, "13CLinoKinA")) substrate <- c(substrate, myTracer)
-  if (str_detect(myTracer, "13ChpAA"))     substrate <- c(substrate, myTracer)
-  if (str_detect(myTracer, "13ChpSCFA"))   substrate <- c(substrate, myTracer)
+  # # !!! IMPORTANT: for TAG kinetics/13C dietary protein/13C Fiber tracing, add the arbitrary tracer (placeholder) to the substrate,
+  # # so as not to search the carbon transition in the metabolic network; 
+  # # the tracer has to be an intermediary metabolite; otherwise if being an arbitrary name, include it as substrate (the starting material)
+  # if (str_detect(myTracer, "13CLinoKinA")) substrate <- c(substrate, myTracer)
+  # if (str_detect(myTracer, "13ChpAA"))     substrate <- c(substrate, myTracer)
+  # if (str_detect(myTracer, "13ChpSCFA"))   substrate <- c(substrate, myTracer)
   
   
   decomposition <- c()
@@ -442,150 +453,150 @@ func.stoicEMU <- function(
   
   
   
-  # if the tracing is TAG-KINETICS, update the TAG substrate labeling (to mirror blood linoleate labeling) and hepatic TAG labeling 
-  #  update the IDV first and last digit to the measured value
-  if (myTracer %>% str_detect("13CLinoKin")) {
-    
-    for (i in 1:length(l.EMU.substrates)){
-      
-      i_EMU <- names(l.EMU.substrates[i]) # get the EMU
-      
-      
-      
-      # scenario 1. Search for tracer 13CLinoKin[A-J], as this is an arbitrary placeholder to fit the computational structure, 
-      # and that the infusion rate is already set to 0, we may set the labeling to any random number (but need to sum to 1)
-      if ( str_detect(i_EMU, "13CLinoKin") ) {
-        # print(i_EMU)
-        # stop()
-        l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- 0 # update the last digit
-        l.EMU.substrates[[i]] [1] <- 1 # update the first (parent non-labeled) digit
-      }
-      
-      
-      # scenario 2: if substrate is TAG.W, 
-      # replace its labeling using the serum linoleate labeling to create this serum steady state (so independent of liver TAG labeling)
-      if ( str_detect(i_EMU, "TAG.W") ) {
-        # print(i_EMU)
-        # stop()
-        
-        labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>%
-          filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
-          filter(Compound == "Lino" & tissue == "Blood") %>%
-          filter(C_Label == max(C_Label)) %>%  # select the full label
-          pull(labeling)
-        
-        print(labeling.i)
-        
-        # l.EMU.substrates[[i]] <- c(
-        #   rep(0, length(l.EMU.substrates[[i]])-1 ),
-        #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID
-        
-        l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
-        l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
-      }
-      
-      
-      # scenario 3: if substrate is Liver TAG, then extract its labeling directly from the labeling dataset
-      if ( str_detect(i_EMU, "TAGLino.Lv") ) {
-        # print(i_EMU)
-        # stop()
-        
-        labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>%
-          filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
-          filter(Compound == "TAGLino" & tissue == "Lv") %>%
-          filter(C_Label == max(C_Label)) %>%  # select the full label
-          pull(labeling)
-        
-        print(labeling.i)
-        
-        # l.EMU.substrates[[i]] <- c(
-        #   rep(0, length(l.EMU.substrates[[i]])-1 ),
-        #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID
-        
-        l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
-        l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
-      }
-      
-    }
-  }
+  # # if the tracing is TAG-KINETICS, update the TAG substrate labeling (to mirror blood linoleate labeling) and hepatic TAG labeling 
+  # #  update the IDV first and last digit to the measured value
+  # if (myTracer %>% str_detect("13CLinoKin")) {
+  #   
+  #   for (i in 1:length(l.EMU.substrates)){
+  #     
+  #     i_EMU <- names(l.EMU.substrates[i]) # get the EMU
+  #     
+  #     
+  #     
+  #     # scenario 1. Search for tracer 13CLinoKin[A-J], as this is an arbitrary placeholder to fit the computational structure, 
+  #     # and that the infusion rate is already set to 0, we may set the labeling to any random number (but need to sum to 1)
+  #     if ( str_detect(i_EMU, "13CLinoKin") ) {
+  #       # print(i_EMU)
+  #       # stop()
+  #       l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- 0 # update the last digit
+  #       l.EMU.substrates[[i]] [1] <- 1 # update the first (parent non-labeled) digit
+  #     }
+  #     
+  #     
+  #     # scenario 2: if substrate is TAG.W, 
+  #     # replace its labeling using the serum linoleate labeling to create this serum steady state (so independent of liver TAG labeling)
+  #     if ( str_detect(i_EMU, "TAG.W") ) {
+  #       # print(i_EMU)
+  #       # stop()
+  #       
+  #       labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>%
+  #         filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
+  #         filter(Compound == "Lino" & tissue == "Blood") %>%
+  #         filter(C_Label == max(C_Label)) %>%  # select the full label
+  #         pull(labeling)
+  #       
+  #       print(labeling.i)
+  #       
+  #       # l.EMU.substrates[[i]] <- c(
+  #       #   rep(0, length(l.EMU.substrates[[i]])-1 ),
+  #       #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID
+  #       
+  #       l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
+  #       l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
+  #     }
+  #     
+  #     
+  #     # scenario 3: if substrate is Liver TAG, then extract its labeling directly from the labeling dataset
+  #     if ( str_detect(i_EMU, "TAGLino.Lv") ) {
+  #       # print(i_EMU)
+  #       # stop()
+  #       
+  #       labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>%
+  #         filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
+  #         filter(Compound == "TAGLino" & tissue == "Lv") %>%
+  #         filter(C_Label == max(C_Label)) %>%  # select the full label
+  #         pull(labeling)
+  #       
+  #       print(labeling.i)
+  #       
+  #       # l.EMU.substrates[[i]] <- c(
+  #       #   rep(0, length(l.EMU.substrates[[i]])-1 ),
+  #       #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID
+  #       
+  #       l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
+  #       l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
+  #     }
+  #     
+  #   }
+  # }
   
   
   
   
-  # if the tracer is portal amino acids, update their IDV first and last digit to the measured value
-  if (myTracer %>% str_detect("13ChpAA")) {
-    for (i in 1:length(l.EMU.substrates)){
-      
-      i_EMU <- names(l.EMU.substrates[i]) # get the EMU
-      
-      if (i_EMU %>% str_detect("\\.hp") &   
-          # detect hepatic portal metabolites, but NOT being SCFA
-          
-  
-          ! (str_detect(i_EMU, "Acetate") ) ) {
-        
-        # if (i_EMU == "Ser.hp_1") stop()
-        # stop()  
-        print(i_EMU)
-        
-        # extract this specific amino acid's labeling in portal blood
-        AA.i <- i_EMU %>% str_extract("[a-zA-Z]{1,8}(?=\\.hp)") # extact compound name without EMU notation
-        
-        # get the M+full isotopologue labeling
-        labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>% 
-          filter(Compound == AA.i) %>% 
-          filter(tissue == "hp") %>% 
-          filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
-          filter(C_Label == max(C_Label)) %>%  # select the full label
-          pull(labeling)
-        
-        print(labeling.i)
-        
-        # l.EMU.substrates[[i]] <- c(
-        #   rep(0, length(l.EMU.substrates[[i]])-1 ), 
-        #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID 
-        
-        l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
-        l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
-      }
-    }
-  }
-  
-  
+  # # if the tracer is portal amino acids, update their IDV first and last digit to the measured value
+  # if (myTracer %>% str_detect("13ChpAA")) {
+  #   for (i in 1:length(l.EMU.substrates)){
+  #     
+  #     i_EMU <- names(l.EMU.substrates[i]) # get the EMU
+  #     
+  #     if (i_EMU %>% str_detect("\\.hp") &   
+  #         # detect hepatic portal metabolites, but NOT being SCFA
+  #         
+  # 
+  #         ! (str_detect(i_EMU, "Acetate") ) ) {
+  #       
+  #       # if (i_EMU == "Ser.hp_1") stop()
+  #       # stop()  
+  #       print(i_EMU)
+  #       
+  #       # extract this specific amino acid's labeling in portal blood
+  #       AA.i <- i_EMU %>% str_extract("[a-zA-Z]{1,8}(?=\\.hp)") # extact compound name without EMU notation
+  #       
+  #       # get the M+full isotopologue labeling
+  #       labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>% 
+  #         filter(Compound == AA.i) %>% 
+  #         filter(tissue == "hp") %>% 
+  #         filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
+  #         filter(C_Label == max(C_Label)) %>%  # select the full label
+  #         pull(labeling)
+  #       
+  #       print(labeling.i)
+  #       
+  #       # l.EMU.substrates[[i]] <- c(
+  #       #   rep(0, length(l.EMU.substrates[[i]])-1 ), 
+  #       #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID 
+  #       
+  #       l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
+  #       l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
+  #     }
+  #   }
+  # }
   
   
-  # if the tracer is portal SCFAs, update their IDV to the measured value
-  if (myTracer %>% str_detect("13ChpSCFA")) {
-    for (i in 1:length(l.EMU.substrates)){
-      
-      i_EMU <- names(l.EMU.substrates[i]) # get the EMU
-      
-      if ( str_detect(i_EMU, "Acetate") ) {
-        
-        print(i_EMU)
-        # stop()
-        # extract this specific SCFA's labeling in portal blood
-        SCFA.i <- i_EMU %>% str_extract("[a-zA-Z]{1,20}(?=\\.hp)") # extact compound name without EMU notation
-        
-        # get the M+full isotopologue labeling
-        labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>% 
-          filter(Compound == SCFA.i) %>% 
-          filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
-          filter(C_Label == max(C_Label)) %>%  # select the full label
-          pull(labeling)
-        
-        
-        print(labeling.i)
-        
-        # l.EMU.substrates[[i]] <- c(
-        #   rep(0, length(l.EMU.substrates[[i]])-1 ), 
-        #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID 
-        
-        l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
-        l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
-      }
-    }
-  }
+  
+  
+  # # if the tracer is portal SCFAs, update their IDV to the measured value
+  # if (myTracer %>% str_detect("13ChpSCFA")) {
+  #   for (i in 1:length(l.EMU.substrates)){
+  #     
+  #     i_EMU <- names(l.EMU.substrates[i]) # get the EMU
+  #     
+  #     if ( str_detect(i_EMU, "Acetate") ) {
+  #       
+  #       print(i_EMU)
+  #       # stop()
+  #       # extract this specific SCFA's labeling in portal blood
+  #       SCFA.i <- i_EMU %>% str_extract("[a-zA-Z]{1,20}(?=\\.hp)") # extact compound name without EMU notation
+  #       
+  #       # get the M+full isotopologue labeling
+  #       labeling.i <- d.13C.refed_TAGkinetics.hpAA.SCFA %>% 
+  #         filter(Compound == SCFA.i) %>% 
+  #         filter(Infusate == myTracer) %>%  # each tracer corresponds to a mouse
+  #         filter(C_Label == max(C_Label)) %>%  # select the full label
+  #         pull(labeling)
+  #       
+  #       
+  #       print(labeling.i)
+  #       
+  #       # l.EMU.substrates[[i]] <- c(
+  #       #   rep(0, length(l.EMU.substrates[[i]])-1 ), 
+  #       #   labeling.i) # this labeling is extracted from the measured portal AA labeling specific to each AA and mouse ID 
+  #       
+  #       l.EMU.substrates[[i]] [length(l.EMU.substrates[[i]])] <- labeling.i # update the last digit
+  #       l.EMU.substrates[[i]] [1] <- 1-labeling.i # update the first digit
+  #     }
+  #   }
+  # }
   
   
   

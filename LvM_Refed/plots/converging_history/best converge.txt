@@ -1,0 +1,1 @@
+[1] "repeat No. 0;  15 steps; 1.02 min; cost: 0.11009794"
