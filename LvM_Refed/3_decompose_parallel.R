@@ -199,7 +199,7 @@ beepr::beep(2) # mark completion
 
 time.EMU.End <- Sys.time(); time.EMU.End
 
-sink("log_parallel decompose.txt")
+sink("log_parallel decompose.txt", append = T)
 time.EMU.End - time.EMU.Start
 sink()
 

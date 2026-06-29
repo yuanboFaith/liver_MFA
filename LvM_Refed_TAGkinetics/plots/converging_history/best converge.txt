@@ -1,0 +1,4 @@
+[1] "repeat No. 0;  15 steps; 1.21 min; cost: 0.1436502"
+[1] "repeat No. 0;  15 steps; 1.2 min; cost: 0.11955734"
+
+[1] "Congrats! Selected the best repeat with the minimal cost: repeat_10"

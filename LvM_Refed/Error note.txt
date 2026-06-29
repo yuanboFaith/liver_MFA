@@ -1,0 +1,10 @@
+Specific to LvM_Refed model, when calculating the net flux difference of Pyr <-> Ala
+
+When calculating the following step:
+
+net flux v50-v48; stage UB; binary index 7; optim.step 2; tracer 13CAla
+
+A.inverse <- func.pseudo_inverse_svd(A) presents error
+
+
+

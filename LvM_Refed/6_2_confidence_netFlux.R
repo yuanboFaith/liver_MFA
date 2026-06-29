@@ -118,7 +118,7 @@ func.calculate_confidence_interval <- function(f){
   
   # check 
   # f=23
-  # f=c(f1, f2)
+  # f=c(f9, f10)
   
   
   # The reaction whose C.I. we seek to determine is fixed to a given level, e.g. increase by 100% of the optimal value
