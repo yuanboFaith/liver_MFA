@@ -16,7 +16,10 @@ time.start <- Sys.time()
 path <- rstudioapi::getActiveDocumentContext()$path %>% dirname()
 setwd(path); getwd()
 
+
+
 # cleaned labeling - infusion data (from the 'data' folder)
+# load the full set of refed data, but use only Tony's Cell Metab. data for fitting, as defined in 3_decompose_parallel
 load(file = "../data/cleaned_labeling_data_TAGkinetics_hpAA-SCFA.RData")
 
 
@@ -89,7 +92,9 @@ f11  <- reaction_data %>% filter(reactions == "AcAct.Lv->HB.Blood") %>% pull(enz
 f12  <- reaction_data %>% filter(reactions == "HB.Blood->AcAct.Lv") %>% pull(enzyme); f12
 
 
-f.all <- list(c(f1, f2), c(f5, f6), c(f9, f10), c(f11, f12))
+# f.all <- list(c(f1, f2), c(f5, f6), c(f9, f10), c(f11, f12))
+
+f.all <- list(c(f9, f10))
 
 
 # Create a cluster
@@ -576,16 +581,17 @@ func.calculate_confidence_interval <- function(f){
       }
       
       
-      # Other fatty acids srcAcCoA should be about 1.2 times higher than the total linoleate oxidation flux (extrapolated from the fasting state)
-      i.TAGLino  <- func.findIndex("TAGLino.Lv->AcCoA.Lv")
-      i.Lino     <- func.findIndex("Lino.Blood->AcCoA.Lv")
-      i.srcAcCoA <- func.findIndex("srcAcCoA->AcCoA.Lv")
       
-      Amat <- rbind( Amat,    Amat0[i.srcAcCoA, ] - 1.2 * (Amat0[i.Lino, ] +  Amat0[i.TAGLino, ]  ) )
-      bo   <- c(bo, 0)
-      
-      Amat <- rbind( Amat, -c(Amat0[i.srcAcCoA, ] - 1.2 * (Amat0[i.Lino, ] +  Amat0[i.TAGLino, ]) ))
-      bo   <- c(bo, -1)
+      # # Other fatty acids srcAcCoA should be about 1.2 times higher than the total linoleate oxidation flux (extrapolated from the fasting state)
+      # i.TAGLino  <- func.findIndex("TAGLino.Lv->AcCoA.Lv")
+      # i.Lino     <- func.findIndex("Lino.Blood->AcCoA.Lv")
+      # i.srcAcCoA <- func.findIndex("srcAcCoA->AcCoA.Lv")
+      # 
+      # Amat <- rbind( Amat,    Amat0[i.srcAcCoA, ] - 1.2 * (Amat0[i.Lino, ] +  Amat0[i.TAGLino, ]  ) )
+      # bo   <- c(bo, 0)
+      # 
+      # Amat <- rbind( Amat, -c(Amat0[i.srcAcCoA, ] - 1.2 * (Amat0[i.Lino, ] +  Amat0[i.TAGLino, ]) ))
+      # bo   <- c(bo, -1)
       
       
       

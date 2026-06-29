@@ -1,0 +1,74 @@
+Time difference of 1.369396 hours
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: Warning message:
+package 'Ryacas' was built under R version 4.4.3 
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: Warning message:
+package 'Ryacas' was built under R version 4.4.3 
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: Warning message:
+package 'Ryacas' was built under R version 4.4.3 
+Execution halted
+ze(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialiIn addition: as' was built under R version 4.4.3 
+: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: In addition: ge:
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Execution halted
+package 'Ryacas' was built under R version 4.4.3 
+In addition: Warning message:
+Execution halted
+as built under R version 4.4.3 
+Warning message:
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+package 'Ryacas' was built under R version 4.4.3 
+In addition: Warning message:
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: as' was built under R version 4.4.3 
+In addition: ge:
+package 'Ryacas' was built under R version 4.4.3 
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> rExecution halted
+a.SOCKnode -> unserialize
+Warning message:
+Execution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+In addition: ted
+Error in unserialiExecution halted
+Error in unserialize(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatch -> recvData -Error in unserialize(node$con) : errExecution halteWarning message:
+ze(node$con) : error reading from connection
+Calls: <Anonymous> ... doTryCatcWarning message:
+ecvData.SOCKnode -> unserialize
+Warning messapackage 'Ryacas' was built under R version 4.4.3 
+package 'Ryacas' was built under R version 4.4.3 
+Execution halted
+Warning message:
+Warning message:
+as built under R version 4.4.3 
+Execution halted
+as built under R version 4.4.3 
+Execution halted
+as built under R version 4.4.3 
+Execution halted
+Execution halted
+Execution halted

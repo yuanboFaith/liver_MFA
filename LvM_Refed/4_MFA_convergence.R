@@ -41,7 +41,7 @@ d.13C.refed_TAGkinetics.hpAA.SCFA %>% filter(Compound == "TAGLino") %>% pull(Com
 d.13C.refed_TAGkinetics.hpAA.SCFA %>% filter(Compound == "TAGLino") %>% pull(Compound.tissue.seq) %>% unique()
 
 # cleaned labeling - infusion data (from the 'data' folder)
-# !!! important to use the new data set (combining the AA tracing data in the refed dataset)
+# load the full set of refed data, but use only Tony's Cell Metab. data for fitting, as defined in 3_decompose_parallel
 load(file = "../data/cleaned_labeling_data_TAGkinetics_hpAA-SCFA.RData")
 
 
