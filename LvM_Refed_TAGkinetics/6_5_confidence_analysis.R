@@ -2,7 +2,7 @@ library(readxl)
 library(tidyverse)
 rm(list = ls())
 
-rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd()
+rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd(); getwd()
 
 
 
@@ -380,8 +380,8 @@ func.plot.CI <- function(L.limit = 0, R.limit = 500, shiftName = 40) {
 }
 
 
-p.small  <- func.plot.CI(L.limit = 0,    R.limit = 500, shiftName = 40)
-p.big   <- func.plot.CI(L.limit = 500.1, R.limit = 4000, shiftName = 200)
+p.small  <- func.plot.CI(L.limit = 0,    R.limit = 100, shiftName = 40)
+p.big   <- func.plot.CI(L.limit = 500, R.limit = 4000, shiftName = 200)
 cowplot::plot_grid(p.small, p.big, rel_heights = c(29, 4), ncol = 1, align = "v")
 ggsave("./plots/Confidence interval_vertical.pdf", width = 12, height = 15)
 
