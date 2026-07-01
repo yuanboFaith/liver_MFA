@@ -12,26 +12,26 @@
 "11","k","liver","Malate",0.00830277279252607
 "12","l","liver","Malate",0.00892765959684809
 "13","a","liver","Succinic acid",0.00841052737952195
-"14","b","liver","Succinic acid",0.00916150567315524
-"15","c","liver","Succinic acid",0.00834906478608385
+"14","b","liver","Succinic acid",0.00916150567315523
+"15","c","liver","Succinic acid",0.00834906478608384
 "16","d","liver","Succinic acid",0.00722252529479295
 "17","e","liver","Succinic acid",0.00867798452364845
 "18","f","liver","Succinic acid",0.00871376455602993
-"19","g","liver","Succinic acid",0.00873702424329934
-"20","h","liver","Succinic acid",0.00906886083810134
+"19","g","liver","Succinic acid",0.00873702424329933
+"20","h","liver","Succinic acid",0.00906886083810133
 "21","i","liver","Succinic acid",0.00908743657418296
 "22","j","liver","Succinic acid",0.00897886445988446
-"23","k","liver","Succinic acid",0.00919150579316157
-"24","l","liver","Succinic acid",0.00960430073178216
+"23","k","liver","Succinic acid",0.00919150579316156
+"24","l","liver","Succinic acid",0.00960430073178215
 "25","b","serum","Phenylalanine",0.0353560926124113
-"26","c","serum","Phenylalanine",0.0375222304814052
-"27","d","serum","Phenylalanine",0.0455371518309452
+"26","c","serum","Phenylalanine",0.0375222304814053
+"27","d","serum","Phenylalanine",0.0455371518309453
 "28","e","serum","Phenylalanine",0.0329593819002547
 "29","f","serum","Phenylalanine",0.0448012158222435
 "30","j","serum","Phenylalanine",0.0342571205759895
 "31","k","serum","Phenylalanine",0.0337485883766051
 "32","l","serum","Phenylalanine",0.0436293949905622
-"33","b","serum","Tyrosine",0.0260795544255997
+"33","b","serum","Tyrosine",0.0260795544255996
 "34","c","serum","Tyrosine",0.0303157605835509
 "35","d","serum","Tyrosine",0.0333877864142544
 "36","e","serum","Tyrosine",0.0295228706256269
@@ -44,7 +44,7 @@
 "43","d","serum","Isoleucine",0.034266953002896
 "44","e","serum","Isoleucine",0.0263236817103721
 "45","f","serum","Isoleucine",0.0366839493835623
-"46","j","serum","Isoleucine",0.0287020060633453
+"46","j","serum","Isoleucine",0.0287020060633454
 "47","k","serum","Isoleucine",0.0277890693849644
 "48","l","serum","Isoleucine",0.0356054100563583
 "49","b","serum","Leucine",0.0227997135340428
@@ -55,7 +55,7 @@
 "54","j","serum","Leucine",0.025927256896771
 "55","k","serum","Leucine",0.0257252415231805
 "56","l","serum","Leucine",0.0309537266344257
-"57","b","serum","Valine",0.023559414973948
+"57","b","serum","Valine",0.0235594149739481
 "58","c","serum","Valine",0.0256225852599541
 "59","d","serum","Valine",0.0278017967254163
 "60","e","serum","Valine",0.0253113998250001
@@ -103,13 +103,13 @@
 "102","j","serum","Glutamate",0.0114489921483186
 "103","k","serum","Glutamate",0.00925023528240771
 "104","l","serum","Glutamate",0.0150555016517386
-"105","b","serum","Tryptophan",0.00394984482641298
+"105","b","serum","Tryptophan",0.00394984482641299
 "106","c","serum","Tryptophan",0.0113844391541307
 "107","d","serum","Tryptophan",0.00938478746578555
 "108","e","serum","Tryptophan",0.00927772990793403
 "109","f","serum","Tryptophan",0.00751531489097006
-"110","j","serum","Tryptophan",0.00954800156015758
-"111","k","serum","Tryptophan",0.0089667652953617
+"110","j","serum","Tryptophan",0.00954800156015759
+"111","k","serum","Tryptophan",0.00896676529536171
 "112","l","serum","Tryptophan",0.00841140547566279
 "113","b","serum","Glutamine",0.00765720899382279
 "114","c","serum","Glutamine",0.00628685544202736
@@ -119,13 +119,13 @@
 "118","j","serum","Glutamine",0.00869583512975305
 "119","k","serum","Glutamine",0.00925665269951884
 "120","l","serum","Glutamine",0.00778610214565818
-"121","b","serum","Alanine",0.00341245256287333
+"121","b","serum","Alanine",0.00341245256287332
 "122","c","serum","Alanine",0.00262847393711243
 "123","d","serum","Alanine",0.00554516411386747
 "124","e","serum","Alanine",0.0064756070117712
 "125","f","serum","Alanine",0.00561300750810324
-"126","j","serum","Alanine",0.00781312789331524
-"127","k","serum","Alanine",0.00351887080810929
+"126","j","serum","Alanine",0.00781312789331525
+"127","k","serum","Alanine",0.00351887080810928
 "128","l","serum","Alanine",0.00783918445937106
 "129","b","serum","Serine",0.00680805800842357
 "130","c","serum","Serine",0.00793240474140488
