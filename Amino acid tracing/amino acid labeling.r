@@ -332,7 +332,7 @@ d.heatmap
 myColors <- colorRampPalette(
   c("grey90", "#d1e6f7", "#a6d3f1", "#57b7e7", "#1bab90", "#3aab70", 
     "#fdd53e", "orange", "firebrick2", "firebrick4", "black"),
-  bias = 3)(100) 
+  bias = 4)(100) 
 
 
 
@@ -342,7 +342,7 @@ library(patchwork)
 func.heatmap.labeling <- function(
     bloodOrTissue = "Blood"){
   
-  max.labeling <- .2 # set an upper max labeling beyond which the same deep saturated color is used
+  max.labeling <- .1 # set an upper max labeling beyond which the same deep saturated color is used
   
   if (bloodOrTissue == "Blood") {
     x <- d.heatmap %>% 
