@@ -372,7 +372,7 @@ func.plot.CI <- function(L.limit = 0, R.limit = 500, shiftName = 40) {
     labs(y = "confidence interval (nmol products / g BW / min)", x = NULL) +
     coord_flip( clip = "off") +
     scale_x_discrete(limits = rev, expand = expansion(add = .2)) %>% 
-  return()
+    return()
   
   
 }
@@ -402,6 +402,21 @@ save(d.CI.bounds.reactions.reduced.LvM, file = "6_CI_fasted.RData")
 
 
 
+
+
+
+# create CI center and SEM
+d.CI.mean.SEM <- d.CI.bounds.reactions.reduced.LvM %>% 
+  mutate(SEM = (R - flux.center)/1.96 %>% round(1)) %>% 
+  select(flux.index, reactions, flux.center, SEM)
+
+d.CI.mean.SEM
+
+
+
+
+
+
 # Normalized to CS flux
 
 # get the CS reaction result
@@ -409,13 +424,19 @@ d.CS <- d.CI.bounds.reactions.reduced.LvM %>% filter(reactions == "OAA.Lv+AcCoA.
 flx.CS_center <- d.CS$flux.center # CS flux center of the CI
 factor.scaleDown <- flx.CS_center/100
 
-d.CI.bounds.reactions.norm <- d.CI.bounds.reactions.reduced.LvM %>% 
+d.CI.mean.SEM_normalized <- d.CI.bounds.reactions.reduced.LvM %>% 
   mutate(R.norm           = (R           / factor.scaleDown) %>% round(1),
          L.norm           = (L           / factor.scaleDown) %>% round(1),
          flux.center.norm = (flux.center / factor.scaleDown) %>% round(1) ) %>% 
   mutate(SEM.norm         = (R.norm - flux.center.norm)/1.96 %>% round(1)) %>% # SEM as half width of the CI
-  select(reactions, contains("norm")) %>% 
+  select(flux.index, reactions, contains("norm")) %>% 
   select(-c(R.norm, L.norm))
 
 
-d.CI.bounds.reactions.norm 
+d.CI.mean.SEM_normalized
+
+
+
+# combine together
+d.CI.mean.SEM_ALL <- d.CI.mean.SEM %>% left_join(d.CI.mean.SEM_normalized)
+d.CI.mean.SEM_ALL
