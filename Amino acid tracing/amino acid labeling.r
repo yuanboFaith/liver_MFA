@@ -294,7 +294,7 @@ p.liverTCA <- o2 %>%
   scale_x_discrete(expand = expansion(add = 1)) +
   coord_cartesian(ylim = c(0, 5)) +
   labs(x = NULL)
-  
+
 p.liverTCA
 
 cowplot::plot_grid(p.portalAAs, p.liverTCA, nrow = 1, rel_widths = c(10, 3.5))
@@ -302,3 +302,159 @@ cowplot::plot_grid(p.portalAAs, p.liverTCA, nrow = 1, rel_widths = c(10, 3.5))
 
 d.Rongya <- bind_rows(o1, o2) %>% arrange(tissue, Compound, mouse.id) %>% select(-part)
 write.csv(d.Rongya, file = "13C protein tracing data.csv")
+
+
+
+
+
+
+# plot isotopologue labeling heatmap
+
+d.metab_names$abbr
+
+x.iso  <- d.metab_names$abbr[1:7] ; x.iso  # show isotopologue labeling pattersn
+x.full <- d.metab_names$abbr[8:length(d.metab_names$Compound)] ; x.full # show full labeling
+
+
+d.heatmap <- d.simpleNames %>% 
+  filter(Compound %in% x.iso) %>% 
+  filter( (tissue == "Lv" & Compound %in% c("Mal", "Suc")) | 
+            (tissue == "Blood" & Compound %in% c("Glc", "Lac", "Ala", "Gln", "HB")) ) %>% 
+  
+  # only mouse b, c, d, e, f, j, k, l has full set of portal blood, liver sample, and systemic blood
+  filter(m.id %in% c("b", "c", "d", "e", "f", "j", "k", "l")) 
+
+
+d.heatmap      
+
+
+
+myColors <- colorRampPalette(
+  c("grey90", "#d1e6f7", "#a6d3f1", "#57b7e7", "#1bab90", "#3aab70", 
+    "#fdd53e", "orange", "firebrick2", "firebrick4", "black"),
+  bias = 3)(100) 
+
+
+
+library(patchwork)
+
+# plot heatmap horizontally
+func.heatmap.labeling <- function(
+    bloodOrTissue = "Blood"){
+  
+  max.labeling <- .2 # set an upper max labeling beyond which the same deep saturated color is used
+  
+  if (bloodOrTissue == "Blood") {
+    x <- d.heatmap %>% 
+      filter(tissue == "Blood")
+  } else {
+    x <- d.heatmap %>% 
+      filter(tissue == "Lv")
+  }
+  
+  y <- x %>% 
+    # filter(State == myState) %>% 
+    # # keep only the full carbon number in FAs
+    # filter(! (Compound %in% "palmitate" & C_Label != 16)) %>% 
+    # filter(! (Compound %in% "oleate" & C_Label != 18)) %>% 
+    # filter(! (Compound %in% "linoleate" & C_Label != 18)) %>% 
+    
+    # compound isotopologues
+    mutate(Compound_C_Label = paste(Compound, C_Label), .after = 2) %>% 
+    mutate(Compound_C_Label = factor(Compound_C_Label, levels = .$Compound_C_Label %>% unique() )) %>% 
+    filter(C_Label != 0) %>% 
+    
+    # use the same deep saturated color for very big labeling
+    mutate(labeling = ifelse(labeling > max.labeling, max.labeling, labeling)) %>% 
+    
+    # arrange compounds and its label in order
+    mutate(Compound = factor(Compound, levels = c("Glc", "Lac", "Ala", "Gln", "HB", "Mal", "Suc"))) %>% 
+    arrange(Compound) %>% 
+    mutate(Compound_C_Label = factor(Compound_C_Label, levels = .$Compound_C_Label %>% unique()))
+  
+  
+  p.main <- y %>% 
+    ggplot(aes(y = m.id, x = Compound_C_Label, fill = labeling)) +
+    geom_tile(color = "white") +
+    # geom_text(aes(label = round(labeling, 3)), size = .5) +
+    # geom_raster() +
+    # facet_grid(Infusate ~ tissue, scales = "free_y", space = "free", switch = "both") +
+    # scale_fill_distiller(palette = "Spectral") +
+    scale_fill_gradientn(colours = myColors, 
+                         breaks = seq(from = 0, to = .5, by = .025), 
+                         limits = c(0, max.labeling), # ensure the same color scale for the specified range of data
+                         values = seq(0, 1, length.out = length(myColors))) +
+    theme_classic() +
+    theme(
+      strip.clip = "off",
+      # axis.text.x = element_text(angle = 50, hjust = 1, size = 6),
+      axis.text = element_blank(),
+      axis.title = element_blank(),
+      axis.ticks.length.x = unit(-2, "pt"),
+      axis.ticks = element_blank(),
+      strip.background = element_blank(),
+      strip.text = element_text(face = "bold", size = 10),
+      strip.text.x.top = element_text(angle = 90, hjust = 0),
+      
+      panel.border = element_rect(color = "black", fill = NA, linewidth = .5),
+      panel.spacing = unit(0, "pt")
+    ) +
+    scale_x_discrete(expand = expansion(add = 0)) +
+    scale_y_discrete(expand = expansion(add = 0)) +
+    guides(fill = guide_colorbar(barheight = unit(200, "pt"))) 
+  
+  
+  # add color bar denoting compounds
+  p.sideBar <- y %>% select(Compound_C_Label, Compound, tissue) %>% 
+    # filter(Compound == "3-HB") %>% 
+    
+    mutate(whichCompound = ifelse(Compound == "a-ketoglutarate", "aKG", as.character(Compound))) %>%
+    # if the isotope label is 1, or 16, 18 for fatty acids, then put the compound label there
+    mutate(whichCompound = ifelse(str_extract(Compound_C_Label, "\\d{1,2}$") %in% c("1", "16", "18"),
+                                  paste(as.character(whichCompound), "   "), NA)) %>%
+    
+    ggplot(aes(y = 1, x = Compound_C_Label, fill = Compound, color = Compound)) +
+    geom_tile(color = "white", size = .5) +
+    
+    # label isotopologue index M+1, M+2....at the END of the isotopologue name 
+    geom_text(aes(label = Compound_C_Label %>% str_extract("\\d{1,2}$"), y = 2.5),
+              size = 3) +
+    
+    # label compound name at M+1 position
+    geom_text(aes(label = Compound, y = 3.5),
+              size = 3, hjust = 0, angle = 90) +
+    
+    facet_grid(.~tissue, switch = "both") +
+    scale_y_continuous(expand = expansion(mult = 0)) +
+    coord_cartesian(clip = "off") +
+    theme_minimal() +
+    theme(
+      plot.margin = margin(t = 30, unit = "pt"),
+      strip.background = element_blank(),
+      strip.text = element_blank(),
+      legend.position = "none", 
+      panel.spacing = unit(0, "pt"), # needs to be identical as the main plot
+      axis.title = element_blank(),
+      axis.ticks.x = element_blank(),
+      panel.grid = element_blank(),
+      axis.text = element_blank(),
+      # axis.text.y = element_text(size = 6, margin = margin(r = 40, unit = "pt")
+    ) +
+    scale_fill_brewer(palette =  ifelse(bloodOrTissue == "Blood", "Paired", "Set2")) +
+    scale_color_brewer(palette =  ifelse(bloodOrTissue == "Blood", "Paired", "Set2")) 
+  
+  (p.sideBar / p.main) + plot_layout(heights = c(.4, 8))
+  
+}
+
+
+
+x1 <- func.heatmap.labeling(bloodOrTissue = "Blood")   #; x1
+x2 <- func.heatmap.labeling(bloodOrTissue = "Tissues") #; x2
+cowplot::plot_grid(x1 + theme(plot.margin = margin(r = 5), legend.position = "none"), 
+                   x2 + theme(# strip.text.y.left = element_blank(),
+                     plot.margin = margin(l = 0)), 
+                   nrow = 1, align = "h", rel_widths = c(2, 1))
+
+ggsave("refed amino acid tracing horizontal heatmap.pdf", height = 4, width = 12)
+

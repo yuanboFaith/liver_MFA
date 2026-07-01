@@ -2,7 +2,7 @@ library(readxl)
 library(tidyverse)
 rm(list = ls())
 
-rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd()
+rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd(); getwd()
 
 
 
