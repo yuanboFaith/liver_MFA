@@ -408,7 +408,9 @@ save(d.CI.bounds.reactions.reduced.LvM, file = "6_CI_refed_portalAA.RData")
 
 # create CI center and SEM
 d.CI.mean.SEM <- d.CI.bounds.reactions.reduced.LvM %>% 
-  mutate(SEM = (R - flux.center)/1.96 %>% round(1)) %>% 
+  mutate(
+    flux.center = round(flux.center, 1),
+    SEM = (R - flux.center)/1.96 %>% round(1)) %>% 
   select(flux.index, reactions, flux.center, SEM)
 
 d.CI.mean.SEM

@@ -75,11 +75,12 @@ names(color.repeats) <- unique(d.repeat.cost$file)
 
 
 # cost plot 1
-d.repeat.cost %>% 
+p.costConvergence <- d.repeat.cost %>% 
   ggplot(aes(x = ite, y = cost.iterations, color = file, fill = file)) +
   # geom_point(size = 1) + 
   geom_line() +
-  scale_x_continuous(breaks = seq(1, 21, 2)) +
+  # scale_x_continuous(breaks = c(1, seq(5, 25, 5))) +
+  scale_x_continuous(breaks = seq(1, 25, 2)) +
   # scale_y_log10(breaks = c(seq(.1, 1, .1), 1:10, seq(10, 100, 10)), expand = expansion(add = 0.1)) + 
   scale_y_log10(breaks = c(.5, 1, 5, 10, 50, 100, 500, 1000)) + 
   annotation_logticks(sides = "l") +
@@ -88,19 +89,29 @@ d.repeat.cost %>%
   geom_point(data = d.repeat.cost %>% group_by(file) %>%  filter(ite == max(ite)),
              shape = 23, size = 2, color = "black",
              position = position_jitter(.2, 0.000005, seed = 1234)) +
-  # # annoate with the repeat index
-  ggrepel::geom_text_repel(
-    data = d.repeat.cost %>% group_by(file) %>%  filter(ite == max(ite)),
-    aes(label = file %>% str_extract("\\d{1,2}")),
-    color = "black", size = 1.5, box.padding = unit(2, "pt"), max.overlaps = 7) +
+  
+  # # # annoate with the repeat index
+  # ggrepel::geom_text_repel(
+  #   data = d.repeat.cost %>% group_by(file) %>%  filter(ite == max(ite)),
+  #   aes(label = file %>% str_extract("\\d{1,2}")),
+  #   color = "black", size = 1.5, box.padding = unit(2, "pt"), max.overlaps = 7) +
+  
   scale_color_manual(values = color.repeats) +
   scale_fill_manual(values = color.repeats) +
-  theme(legend.position = "none")
+  theme(legend.position = "none", axis.text = element_text(size = 16.5))
+
+p.costConvergence
+
+ggsave("./plots/MFA repeat convergence.pdf", height = 4, width = 7)
 
 
-ggsave("./plots/MFA repeat convergence.pdf", height = 3.5*1.1, width = 4.5*1.1)
+p.costConvergence + coord_cartesian(ylim = c(0.125, .18), xlim = c(3, NA)) + 
+  scale_y_continuous(breaks = seq(.13, .18, .01))
+ggsave("./plots/MFA repeat convergence_zoom1.pdf", height = 5/1.3, width = 7/1.3)
 
-
+p.costConvergence + coord_cartesian(ylim = c(0.124, .128), xlim = c(5, NA)) + 
+  scale_y_continuous(breaks = seq(.12, .13, .001))
+ggsave("./plots/MFA repeat convergence_zoom2.pdf", height = 5/1.3, width = 7/1.3)
 
 
 # initial flux values
@@ -119,7 +130,7 @@ d.repeat.u.initial %>%
   scale_color_manual(values = color.repeats) +
   scale_fill_manual(values = color.repeats) 
 
-ggsave("./plots/MFA repeat initial fluxes.pdf", height = 4/1.3, width = 5/1.3)
+ggsave("./plots/MFA repeat initial fluxes.pdf", height = 3.5/1.1, width = 5/1.1)
 
 
 
@@ -209,8 +220,8 @@ p <- d.obs.simu %>%
   scale_y_continuous(transform = "sqrt") +
   facet_wrap(~tracer, nrow = 2) +
   geom_abline(slope = 1, intercept = 0, color = "black", linewidth = .3) +
-  theme_bw(base_size = 13) +
-  theme(axis.text.x = element_text(angle = 40, hjust = 1),
+  theme_bw(base_size = 15) +
+  theme(axis.text.x = element_text(angle = 90, vjust = .5),
         strip.background = element_blank(),
         strip.text = element_text(face = "bold"),
         legend.position = "right",
@@ -231,3 +242,51 @@ ggsave(filename = "./plots/sim vs obs LOW range faceted.pdf", width = 10, height
 
 p81.facet <- p + coord_equal(xlim = c(.8, 1),  ylim = c(.8, 1));   p81.facet
 ggsave(filename = "./plots/sim vs obs HIGH range faceted.pdf", width = 10, height = 5)
+
+
+
+
+
+
+
+
+
+
+# Plot obs vs sim data for publishable figures
+ordered.tracers <- paste0(
+  "13C", c("Glc", "Lac", "Ala", "Gln", "Glycerol", "HB", "Palm", "Ole", "Lino", "LinoKin"))
+
+ordered.metabolites <- c(
+  paste0(c("Glc", "Lac", "Ala", "Gln", "Glycerol", "HB", "Palm", "Ole", "Lino"), ".Blood"),
+  "Mal.Lv", "Suc.Lv")
+
+
+d.obs.simu %>% 
+  mutate(tracer = str_remove(tracer, "(?<=Kin)[A-Z]")) %>% 
+  mutate(tracer = factor(tracer, levels = ordered.tracers, ordered = T)) %>% 
+  mutate(metabolite = factor(metabolite, levels = ordered.metabolites, ordered = T)) %>% 
+  ggplot(aes(x = obs, y = sim, color = metabolite)) +
+  scale_x_continuous(transform = "sqrt", labels = ~.x * 100) +
+  scale_y_continuous(transform = "sqrt", labels = ~.x * 100) +
+  facet_wrap(~tracer, nrow = 2) +
+  geom_abline(slope = 1, intercept = 0, color = "black", linewidth = .3) +
+  theme_bw(base_size = 15) +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1),
+        strip.background = element_blank(),
+        strip.text = element_text(face = "bold"),
+        legend.position = "right",
+        panel.spacing = unit(5, "pt"),
+        panel.grid = element_line(size = .3)) +
+  # geom_text(data = d.obs.simu %>%
+  #             group_by(tracer, metabolite, label) %>%
+  #             summarise(sim = mean(sim),
+  #                       obs = mean(obs)),
+  #           aes(color = metabolite, label = label %>% str_remove("#")),
+  #           size = 3, key_glyph = draw_key_point) +
+  geom_text(aes(label = label %>% str_remove("#")), size = 3, key_glyph = draw_key_point) +
+  guides(color = guide_legend(override.aes = list(size = 5, fontface = "bold"))) +
+  labs(color = NULL) +
+  scale_color_manual(values = myColors) +
+  coord_equal(xlim = c( 0, .2), ylim = c(0, .2))
+
+ggsave(filename = "./plots/sim vs obs low range faceted_MiceReplicates.pdf", width = 13, height = 5)

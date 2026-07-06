@@ -98,7 +98,8 @@ f.all <- list(c(f9, f10))
 
 
 # Create a cluster
-cl <- makeCluster( min (length(f.all), detectCores()-1 ), outfile = "log_CI.txt" )  
+# cl <- makeCluster( min (length(f.all), detectCores()-1 ), outfile = "log_CI.txt" )  
+cl <- makeCluster( min (length(f.all), detectCores()-1 ), outfile = "" )  
 
 
 # Make libraries accessible to each working node

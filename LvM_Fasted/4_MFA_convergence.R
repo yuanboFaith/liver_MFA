@@ -435,7 +435,8 @@ func.process_tracer <- function(tracer.k) {
 
 
 # Create a cluster
-cl <- makeCluster(9, outfile = "" )  
+# cl <- makeCluster(9, outfile = "" )
+cl <- makeCluster(8, outfile = "" )  
 
 # Make libraries accessible to each working node
 clusterEvalQ(cl, {
@@ -613,14 +614,14 @@ for (optim.step in 1:n.opt.steps) {
   # # method 1
   eg <- eigen(H)
   eigenValues <- eg$values; eigenValues
-
+  
   tolerance <- max( max(eigenValues) * .Machine$double.eps, .Machine$double.eps) * 100
-
+  
   if ( any((eigenValues < tolerance) == T) ){ # if any eigenvalues are close to zero, add a small number
     eigenValues[eigenValues < tolerance] <- tolerance
     H <- eg$vectors %*% diag(eigenValues) %*% t(eg$vectors) # reconstruct H
   }
-
+  
   # # method 2
   # # H <- H + diag(1, nrow = nrow(H)) * .Machine$double.eps * 100
   # H <- H + diag(1, nrow = nrow(H)) * (10^-10)
@@ -878,7 +879,7 @@ plt.obs.sim <- d.obs.simu %>%
         legend.position = "none",
         panel.spacing = unit(1, "pt"),
         panel.grid = element_line(size = .3)) 
-  
+
 plt.obs.sim
 
 # ggsave(filename = "./plots/sim vs obs.pdf", width = 5, height = 24)
@@ -1064,27 +1065,33 @@ d.obs.simu %>% mutate(residuals = sim - obs) %>%
 
 
 # plot convergence of fluxes
-d.u.iterations %>% 
-  # filter(u < 1000) %>% 
-  ggplot(aes(x = ite, y = u, color = index)) +
-  geom_point(size = 1) +
+ooo <- d.u.iterations %>% filter(index != "v84") 
+
+cls <- c("firebrick", RColorBrewer::brewer.pal(8, "Dark2"), "turquoise4",  "grey30")
+cls <- colorRampPalette(cls)(ooo$index %>% n_distinct()) %>% sample()
+
+ooo %>% 
+  ggplot(aes(x = ite, y = u+1, color = index)) +
+  geom_point(size = .5) +
   geom_line() +
-  geom_text(data = d.u.iterations %>% filter(ite == max(ite)),
+  geom_text(data = ooo %>% filter(ite == max(ite)),
             aes(x = ite + 1.5, label = index), size = 3) +
-  theme_minimal() +
+  theme_classic(base_size = 14) +
   theme(legend.position = "none") +
-  coord_cartesian(ylim = c(0, 300)) +
-  labs(x = "number of interations", y = "free fluxes (nmol/min/g BW)")
+  # coord_cartesian(ylim = c(0, 500)) +
+  scale_x_continuous(breaks = seq(1, 25, 2)) +
+  scale_y_log10(
+    breaks = 10^c(-5:5),
+    labels = scales::trans_format("log10", scales::math_format(10^.x))) + 
+  annotation_logticks(sides = "l") +
+  labs(x = "number of interations", y = "free fluxes (nmol/min/g BW)") +
+  scale_color_manual(values = cls)
 
-# ggsave("./plots/flux convergence.pdf", width = 6, height = 6)
+
+ggsave("./plots/flux convergence.pdf",  height = 4, width = 5)
 
 
 
-d.u.iterations %>% filter(ite > 15) %>% 
-  group_by(index) %>% 
-  summarise(u_sd.percent = sd(u)/mean(u) * 100) %>% 
-  filter(u_sd.percent > 100) %>% 
-  arrange(index)
 
 
 dX.target_allTracers %>% dim()
@@ -1420,7 +1427,7 @@ aaaaa
 sink()
 
 
- 
+
 # mark completion
 beepr::beep(2) 
 

@@ -297,10 +297,17 @@ d.infusionRate.benchmark.normalized$Infusate %>% unique()
 
 
 func.heatmap.labeling <- function(
-    bloodOrTissue = "Blood", 
-    myState = "fasted"){
+    bloodOrTissue = "Blood",
+    myState = "fasted",
+    liverOnly = T,
+    includeFAs = T){
   
   max.labeling <- .2 # set an upper max labeling beyond which the same deep saturated color is used
+  
+  
+  # test
+  # myState = "refed"; bloodOrTissue = "Blood";   liverOnly = T; includeFAs = F
+  
   
   if (bloodOrTissue == "Blood") {
     x <- d.infusionRate.benchmark.normalized %>% 
@@ -309,6 +316,19 @@ func.heatmap.labeling <- function(
     x <- d.infusionRate.benchmark.normalized %>% 
       filter(tissue != "Blood")
   }
+  
+  
+  # show liver only or include all the other tissues as well
+  if (liverOnly == T) {
+    x <- x %>% filter(tissue %in% c("Blood", "Lv"))
+  }
+  
+  # show 13C-FAs tracing data or not (not available for refed; data not reliable)
+  if (includeFAs != T){
+    x <- x %>% filter(! Infusate %in% c("palmitate", "oleate", "linoleate"))
+    x <- x %>% filter(! Compound %in% c("palmitate", "oleate", "linoleate"))
+  }
+  
   
   y <- x %>% filter(State == myState) %>% 
     # keep only the full carbon number in FAs
@@ -367,11 +387,11 @@ func.heatmap.labeling <- function(
     
     # label isotopologue index M+1, M+2....
     geom_text(aes(label = Compound_C_Label %>% str_extract("\\d{1,2}$"), x = 0),
-              size = 1.6, hjust = 1) +
+              size = 2.5, hjust = 1) +
     
     # label compound name at M+1 position
     geom_text(aes(label = whichCompound, x = -.1),
-              size = 2.1, hjust = 1) +
+              size = 2.8, hjust = 1) +
     
     facet_grid(tissue~.) +
     scale_x_continuous(expand = expansion(mult = 0)) +
@@ -399,8 +419,8 @@ func.heatmap.labeling <- function(
 
 
 # fasted
-x1 <- func.heatmap.labeling(myState = "fasted", bloodOrTissue = "Blood")   #; x1
-x2 <- func.heatmap.labeling(myState = "fasted", bloodOrTissue = "Tissues") #; x2
+x1 <- func.heatmap.labeling(myState = "fasted", bloodOrTissue = "Blood", liverOnly = F)   #; x1
+x2 <- func.heatmap.labeling(myState = "fasted", bloodOrTissue = "Tissues", liverOnly = F) #; x2
 cowplot::plot_grid(x1 + theme(plot.margin = margin(b = 0)), 
                    ggplot() + theme_void(),
                    x2 + theme(strip.text.x.top = element_blank(),
@@ -409,25 +429,25 @@ cowplot::plot_grid(x1 + theme(plot.margin = margin(b = 0)),
                    align = "v",
                    rel_heights = c(1, .12,  2.3*1.8))
 
-ggsave("fasted labeling.pdf", height = 10*1.3, width = 5)
+# ggsave("fasted labeling.pdf", height = 10*1.3, width = 5)
  
 
 
 # refed
-y1 <- func.heatmap.labeling(myState = "refed", bloodOrTissue = "Blood")   # ; y1
-y2 <- func.heatmap.labeling(myState = "refed", bloodOrTissue = "Tissues") # ; y2
+y1 <- func.heatmap.labeling(myState = "refed", bloodOrTissue = "Blood",   liverOnly = T, includeFAs = F)   # ; y1
+y2 <- func.heatmap.labeling(myState = "refed", bloodOrTissue = "Tissues", liverOnly = T, includeFAs = F) # ; y2
 cowplot::plot_grid(y1 + theme(plot.margin = margin(b = 0), axis.ticks.x = element_blank()), 
                    ggplot() + theme_void(),
                    y2 + theme(strip.text.x.top = element_blank(),
                               plot.margin = margin(t = 0)), 
                    ncol = 1, 
                    align = "v", 
-                   rel_heights = c(1, .12,  2.3*1.8))
-ggsave("refed labeling.pdf", height = 10*1.3, width = 5)
+                   rel_heights = c(2.1, .12,  1))
+ggsave("refed labeling.pdf", height = 5.1, width = 5)
 
 
 
-# 
+ # 
 # d.infusionRate.benchmark.normalized %>% 
 #   filter(tissue == "Blood") %>% 
 #   filter(Compound == "3-HB") %>% view()

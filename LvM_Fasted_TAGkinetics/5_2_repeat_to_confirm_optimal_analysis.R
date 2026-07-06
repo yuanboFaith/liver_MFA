@@ -231,3 +231,46 @@ ggsave(filename = "./plots/sim vs obs LOW range faceted.pdf", width = 10, height
 
 p81.facet <- p + coord_equal(xlim = c(.8, 1),  ylim = c(.8, 1));   p81.facet
 ggsave(filename = "./plots/sim vs obs HIGH range faceted.pdf", width = 10, height = 5)
+
+
+
+
+
+# Plot obs vs sim data for suppl. figures
+ordered.tracers <- paste0(
+  "13C", c("Glc", "Lac", "Ala", "Gln", "Glycerol", "HB", "Palm", "Ole", "Lino", "LinoKin"))
+
+ordered.metabolites <- c(
+  paste0(c("Glc", "Lac", "Ala", "Gln", "Glycerol", "HB", "Palm", "Ole", "Lino"), ".Blood"),
+  "Mal.Lv", "Suc.Lv")
+
+
+d.obs.simu %>% 
+  mutate(tracer = str_remove(tracer, "(?<=Kin)[A-Z]")) %>% 
+  mutate(tracer = factor(tracer, levels = ordered.tracers, ordered = T)) %>% 
+  mutate(metabolite = factor(metabolite, levels = ordered.metabolites, ordered = T)) %>% 
+  ggplot(aes(x = obs, y = sim, color = metabolite)) +
+  scale_x_continuous(transform = "sqrt", labels = ~.x * 100) +
+  scale_y_continuous(transform = "sqrt", labels = ~.x * 100) +
+  facet_wrap(~tracer, nrow = 2) +
+  geom_abline(slope = 1, intercept = 0, color = "black", linewidth = .3) +
+  theme_bw(base_size = 15) +
+  theme(axis.text.x = element_text(angle = 40, hjust = 1),
+        strip.background = element_blank(),
+        strip.text = element_text(face = "bold"),
+        legend.position = "right",
+        panel.spacing = unit(5, "pt"),
+        panel.grid = element_line(size = .3)) +
+  # geom_text(data = d.obs.simu %>%
+  #             group_by(tracer, metabolite, label) %>%
+  #             summarise(sim = mean(sim),
+  #                       obs = mean(obs)),
+  #           aes(color = metabolite, label = label %>% str_remove("#")),
+  #           size = 3, key_glyph = draw_key_point) +
+  geom_text(aes(label = label %>% str_remove("#")), size = 3, key_glyph = draw_key_point) +
+  guides(color = guide_legend(override.aes = list(size = 5, fontface = "bold"))) +
+  labs(color = NULL) +
+  scale_color_manual(values = myColors) +
+  coord_equal(xlim = c( 0, .2), ylim = c(0, .2))
+
+ggsave(filename = "./plots/sim vs obs low range faceted_MiceReplicates.pdf", width = 13, height = 5)

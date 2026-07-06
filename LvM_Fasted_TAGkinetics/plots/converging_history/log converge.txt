@@ -21,3 +21,15 @@ iteration steps 22; Time spent to converge 3.35 min; cost at terminal step 0.148
 
 
  Congrats! Selected the best repeat with the minimal cost: repeat_11 
+
+
+ Congrats! Selected the best repeat with the minimal cost: repeat_11 
+
+
+ Congrats! Selected the best repeat with the minimal cost: repeat_11 
+
+
+ Congrats! Selected the best repeat with the minimal cost: repeat_11 
+
+
+ Congrats! Selected the best repeat with the minimal cost: repeat_11 

@@ -179,3 +179,67 @@ cat("\n"); mmmp
 sink()
 
 message("Congrats! Selected the best repeat with the minimal cost: ", d.repeat.best$file)
+
+
+
+
+
+
+
+
+
+
+
+
+# Plot obs vs sim data for publishable figures
+set.seed(123)
+myColors <- colorRampPalette(c(RColorBrewer::brewer.pal(8, "Dark2") %>% sample(), "black")) (11)
+
+
+
+ordered.tracers <- paste0(
+  "13C", c("Glc", "Lac", "Ala", "Gln", "Glycerol", "HB", "Palm", "Ole", "Lino", "LinoKin", "hpAA"))
+
+ordered.metabolites <- c(
+  paste0(c("Glc", "Lac", "Ala", "Gln", "Glycerol", "HB", "Palm", "Ole", "Lino"), ".Blood"),
+  "Mal.Lv", "Suc.Lv")
+
+names(myColors) <- ordered.metabolites
+
+
+d.obs.simu %>% 
+  mutate(tracer = str_remove(tracer, "(?<=Kin)[A-Z]")) %>%  # TAG kinetics
+  mutate(tracer = str_remove(tracer, "(?<=hpAA)[a-z]")) %>%  # protein tracing
+  
+  # filter(tracer == "13ChpAA") %>% 
+  
+  mutate(tracer = factor(tracer, levels = ordered.tracers, ordered = T)) %>% 
+  mutate(metabolite = factor(metabolite, levels = ordered.metabolites, ordered = T)) %>% 
+  
+  ggplot(aes(x = obs, y = sim, color = metabolite)) +
+  scale_x_continuous(transform = "sqrt", labels = ~.*100) +
+  scale_y_continuous(transform = "sqrt", labels = ~.*100) +
+  facet_wrap(~tracer, nrow = 2) +
+  geom_abline(slope = 1, intercept = 0, color = "black", linewidth = .3) +
+  theme_bw(base_size = 15) +
+  theme(# axis.text.x = element_text(angle = 0, hjust = 1, vjust = ),
+        strip.background = element_blank(),
+        strip.text = element_text(face = "bold"),
+        legend.position = "right",
+        panel.spacing = unit(10, "pt"),
+        panel.grid = element_line(size = .3)) +
+  # facet_wrap(~mouse.id) +
+  # geom_text(data = d.obs.simu %>%
+  #             group_by(tracer, metabolite, label) %>%
+  #             summarise(sim = mean(sim),
+  #                       obs = mean(obs)),
+  #           aes(color = metabolite, label = label %>% str_remove("#")),
+  #           size = 3, key_glyph = draw_key_point) +
+  geom_text(aes(label = label %>% str_remove("#")), size = 3, key_glyph = draw_key_point) +
+  guides(color = guide_legend(override.aes = list(size = 5, fontface = "bold"))) +
+  labs(color = NULL) +
+  scale_color_manual(values = myColors) + 
+  coord_equal(xlim = c( 0, .04), ylim = c(0, .04)) 
+
+ggsave(filename = "./plots/sim vs obs low range faceted_MiceReplicates.pdf", width = 9, height = 5)
+
