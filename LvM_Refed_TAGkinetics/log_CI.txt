@@ -1,0 +1,1625 @@
+starting worker pid=20892 on localhost:11521 at 22:07:30.524
+starting worker pid=23016 on localhost:11521 at 22:07:30.670
+starting worker pid=29252 on localhost:11521 at 22:07:30.797
+starting worker pid=1076 on localhost:11521 at 22:07:30.921
+starting worker pid=3216 on localhost:11521 at 22:07:31.049
+starting worker pid=31552 on localhost:11521 at 22:07:31.177
+starting worker pid=27032 on localhost:11521 at 22:07:31.302
+starting worker pid=38040 on localhost:11521 at 22:07:31.433
+starting worker pid=35768 on localhost:11521 at 22:07:31.567
+starting worker pid=36820 on localhost:11521 at 22:07:31.697
+starting worker pid=16516 on localhost:11521 at 22:07:31.821
+starting worker pid=26724 on localhost:11521 at 22:07:31.948
+starting worker pid=25344 on localhost:11521 at 22:07:32.076
+starting worker pid=19716 on localhost:11521 at 22:07:32.203
+starting worker pid=2824 on localhost:11521 at 22:07:32.330
+starting worker pid=21320 on localhost:11521 at 22:07:32.457
+starting worker pid=2952 on localhost:11521 at 22:07:32.584
+starting worker pid=30284 on localhost:11521 at 22:07:32.711
+starting worker pid=22612 on localhost:11521 at 22:07:32.848
+starting worker pid=26636 on localhost:11521 at 22:07:32.987
+starting worker pid=23100 on localhost:11521 at 22:07:33.114
+starting worker pid=37156 on localhost:11521 at 22:07:33.241
+starting worker pid=11476 on localhost:11521 at 22:07:33.374
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+
+Attaching package: 'Ryacas'
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+
+Attaching package: 'Ryacas'
+
+from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+tp://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+reaction #72; stage UB; binary index 1
+h =  26733.1
+reaction #10; stage UB; binary index 1
+h =  10
+reaction #12; stage UB; binary index 1
+h =  585.91
+reaction #23; stage UB; binary index 1
+h =  839.45
+reaction #19; stage UB; binary index 1
+h =  50
+reaction #5; stage UB; binary index 1
+h =  439.05
+reaction #63; stage UB; binary index 1
+h =  26742.28
+reaction #29; stage UB; binary index 1
+h =  405.46
+reaction #11; stage UB; binary index 1
+h =  59.51
+reaction #28; stage UB; binary index 1
+h =  247.95
+reaction #25; stage UB; binary index 1
+h =  46.79
+reaction #7; stage UB; binary index 1
+h =  1134.72
+reaction #22; stage UB; binary index 1
+h =  268.22
+reaction #59; stage UB; binary index 1
+h =  61.93
+reaction #53; stage UB; binary index 1
+h =  29.23
+reaction #14; stage UB; binary index 1
+h =  597.22
+reaction #65; stage UB; binary index 1
+h =  24297.8
+reaction #66; stage UB; binary index 1
+h =  24297.8
+reaction #20; stage UB; binary index 1
+h =  1096.36
+reaction #61; stage UB; binary index 1
+h =  73.25
+reaction #8; stage UB; binary index 1
+h =  38.36
+reaction #67; stage UB; binary index 1
+optim.step 1; tracer 13CGlc
+h =  14.9
+reaction #71; stage UB; binary index 1
+h =  24288.61
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #72; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #19; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #12; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #8; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #65; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #63; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #5; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #29; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #67; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #71; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #23; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #66; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #61; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #28; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #10; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #22; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #20; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #14; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #25; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #11; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #7; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #14; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CGln
+starting worker pid=27136 on localhost:11087 at 22:09:54.618
+starting worker pid=2264 on localhost:11087 at 22:09:54.771
+starting worker pid=8136 on localhost:11087 at 22:09:54.923
+starting worker pid=26840 on localhost:11087 at 22:09:55.075
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+
+Attaching package: 'Ryacas'
+
+The following object is masked from 'package:stats':
+
+    integrate
+
+The following objects are masked from 'package:base':
+
+    %*%, det, diag, diag<-, lower.tri, upper.tri
+
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CGln
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter()   masks stats::filter()
+✖ dplyr::lag()      masks stats::lag()
+✖ purrr::simplify() masks Ryacas::simplify()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CGln
+net flux v67-v69; stage UB; binary index 1
+h =  9.19
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+net flux v61-v59; stage UB; binary index 1
+h =  11.32
+net flux v55-v53; stage UB; binary index 1
+h =  77.61
+net flux v5-v6; stage UB; binary index 1
+h =  217.66
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CGln
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CGlc
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CGln
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CHB
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLac
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLac
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CHB
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLac
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CHB
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinA
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CGlycerol
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinB
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CAla
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CAla
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CAla
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CAla
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinC
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CGln
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CGln
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CGln
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CGln
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinD
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CHB
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CHB
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CHB
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CHB
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinE
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinA
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinF
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinB
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinG
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinC
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinH
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinD
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinI
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinE
+reaction #72; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #19; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #63; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #12; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #8; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #65; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #5; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #29; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #23; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #71; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #61; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #53; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #66; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #28; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #59; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #67; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #10; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #11; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #22; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #25; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #20; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+reaction #7; stage UB; binary index 1; optim.step 2; tracer 13CLinoKinJ
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinF
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CGlc
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinG
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CLac
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CLac
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CLac
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinH
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinI
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CGlycerol
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CAla
+net flux v67-v69; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CAla
+net flux v55-v53; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CAla
+net flux v5-v6; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CAla
+net flux v61-v59; stage UB; binary index 1; optim.step 1; tracer 13CLinoKinJ
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CAla
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CGln
+net flux v67-v69; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CGln
+net flux v55-v53; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CGln
+net flux v5-v6; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+net flux v61-v59; stage UB; binary index 1; optim.step 2; tracer 13CGlc
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CGln
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CHB
+net flux v67-v69; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CHB
+net flux v55-v53; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CHB
+net flux v5-v6; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CHB
+net flux v61-v59; stage UB; binary index 1; optim.step 2; tracer 13CLac
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CHB
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+net flux v67-v69; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+net flux v55-v53; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+net flux v5-v6; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinA
+net flux v61-v59; stage UB; binary index 1; optim.step 2; tracer 13CGlycerol
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #59; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #66; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #53; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #67; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+net flux v67-v69; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #10; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #22; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #20; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+net flux v55-v53; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #25; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #11; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+reaction #7; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinB
+net flux v5-v6; stage UB; binary index 1; optim.step 2; tracer 13CAla
+net flux v61-v59; stage UB; binary index 1; optim.step 2; tracer 13CAla
+reaction #72; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #19; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #63; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #12; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #65; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #8; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #29; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #5; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #23; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #71; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #61; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC
+reaction #28; stage UB; binary index 1; optim.step 3; tracer 13CLinoKinC

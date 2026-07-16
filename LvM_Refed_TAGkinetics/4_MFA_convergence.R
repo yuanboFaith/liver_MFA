@@ -1455,17 +1455,22 @@ ggsave(filename = str_c(
 
 
 
-# Log up
-sink("./plots/converging_history/best converge.txt", append = T)
-aaaaa <- paste0("repeat No. ", repeat_index, ";  ", 
-                optim.step, " steps; ",
-                round(time.used, 2), " min; ",
-                "cost: ", slice_tail(d.cost.iterations, n = 1)$cost %>% round(8))
-aaaaa
-sink()
 
+
+# Log up
+message("record this converging in the log text in 'converging_history' folder")
+#sink("./plots/converging_history/log converge.txt", append = T)
+#sink()
+
+aaaaa <- paste0(
+  "iteration steps ", optim.step, "; Time spent to converge ",
+  round(time.used, 2), " min; ",
+  "cost at terminal step ", slice_tail(d.cost.iterations, n = 1)$cost %>% round(8))
+
+# export explicit to the log text
+cat(aaaaa, "\n", file = "./plots/converging_history/log converge.txt", append = TRUE)
 
  
-# mark completion
-beepr::beep(2) 
+# # mark completion
+# beepr::beep(2) 
 
