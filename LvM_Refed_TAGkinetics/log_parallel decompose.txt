@@ -85018,3 +85018,4 @@ Warning message:
 package 'Ryacas' was built under R version 4.4.3 
 package 'Ryacas' was built under R version 4.4.3 
 Time difference of 38.05683 secs
+Time difference of 1.949559 mins

@@ -270,12 +270,12 @@ d.dataForMFA.TAGkinetics$Compound %>% unique()
 
 x.iso  <- c("Glc", "Lac", "Ala", "Gln", "HB", "Mal", "Suc"); x.iso  # show isotopologue labeling pattersn
 
-d.heatmap <- d.dataForMFA.TAGkinetics %>% 
-  filter(Compound %in% x.iso) %>% 
-  mutate(Compound = factor(Compound, levels = x.iso, ordered = T)) %>% 
-  arrange(Compound) %>% 
-  filter( (tissue == "Lv" & Compound %in% c("Mal", "Suc")) | 
-            (tissue == "Blood" & Compound %in% c("Glc", "Lac", "Ala", "Gln", "HB")) ) 
+d.heatmap <- d.dataForMFA.TAGkinetics  %>% 
+  filter(Compound %in% x.iso) %>%
+  mutate(Compound = factor(Compound, levels = x.iso, ordered = T)) %>%
+  arrange(Compound) %>%
+  filter( (tissue == "Lv" & Compound %in% c("Mal", "Suc")) |
+            (tissue == "Blood" & Compound %in% c("Glc", "Lac", "Ala", "Gln", "HB")) )
   
 d.heatmap      
 

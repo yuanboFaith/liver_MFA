@@ -234,3 +234,37 @@ d.obs.simu %>%
 
 ggsave(filename = "./plots/sim vs obs low range faceted_MiceReplicates.pdf", width = 9, height = 5)
 
+
+
+
+
+
+
+
+# # check TAG kinetics fitting data in closer detail
+# d.obs.simu %>% 
+#   filter(tracer %>% str_detect("13CLinoKin") ) %>% 
+#   mutate(metabolite = factor(metabolite, levels = ordered.metabolites, ordered = T)) %>% 
+#   ggplot(aes(x = obs, y = sim, color = metabolite)) +
+#   scale_x_continuous(transform = "sqrt", labels = ~.*100) +
+#   scale_y_continuous(transform = "sqrt", labels = ~.*100) +
+#   facet_grid(metabolite~tracer) +
+#   geom_abline(slope = 1, intercept = 0, color = "black", linewidth = .3) +
+#   theme_bw(base_size = 15) +
+#   theme(axis.text.x = element_text(angle = 50, hjust = 1),
+#         strip.background = element_blank(),
+#         strip.text = element_text(face = "bold"),
+#         legend.position = "none",
+#         panel.spacing = unit(10, "pt"),
+#         panel.grid = element_line(size = .3)) +
+#   # geom_text(data = d.obs.simu %>%
+#   #             group_by(tracer, metabolite, label) %>%
+#   #             summarise(sim = mean(sim),
+#   #                       obs = mean(obs)),
+#   #           aes(color = metabolite, label = label %>% str_remove("#")),
+#   #           size = 3, key_glyph = draw_key_point) +
+#   geom_text(aes(label = label %>% str_remove("#")), size = 3, key_glyph = draw_key_point) +
+#   guides(color = guide_legend(override.aes = list(size = 5, fontface = "bold"))) +
+#   labs(color = NULL) +
+#   scale_color_manual(values = myColors) + 
+#   coord_equal(xlim = c( 0, .2), ylim = c(0, .2))

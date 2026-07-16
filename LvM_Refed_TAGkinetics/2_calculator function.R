@@ -226,7 +226,8 @@ func.stoicEMU <- function(
   new.EMU <- target.EMU # start from target EMU; it'll keep growing to store newly identified EMU
   
   # the substrate that feeds into the system
-  substrate <- c("srcAcCoA", "Glycogen.Lv", "Glycogen.M", "TAG.W", "protein") # global
+  
+  substrate <- c("srcAcCoA", "Glycogen.Lv", "Glycogen.M", "TAGgly.W", "TAGLino.W", "protein") # global
   substrate <- c(substrate, myTracer) # add the tracer input
   
   
@@ -468,7 +469,7 @@ func.stoicEMU <- function(
       
       # scenario 2: if substrate is TAG.W, 
       # replace its labeling using the serum linoleate labeling to create this serum steady state (so independent of liver TAG labeling)
-      if ( str_detect(i_EMU, "TAG.W") ) {
+      if ( str_detect(i_EMU, "TAGLino.W") ) {
         # print(i_EMU)
         # stop()
         

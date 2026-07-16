@@ -222,7 +222,9 @@ func.stoicEMU <- function(
   new.EMU <- target.EMU # start from target EMU; it'll keep growing to store newly identified EMU
   
   # the substrate that feeds into the system
-  substrate <- c("srcAcCoA", "Glycogen.Lv", "Glycogen.M", "TAG.W", "protein") # global
+  
+  # "TAGgly.W" for blood glycerol, and "TAGLino" for blood linoleate
+  substrate <- c("srcAcCoA", "Glycogen.Lv", "Glycogen.M", "TAGgly.W", "TAGLino", "protein") # global
   substrate <- c(substrate, myTracer) # add the tracer input
   
   
