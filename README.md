@@ -1,8 +1,8 @@
-# **Quantification of Hepatic Fuel Usage with ^13^C-Metabolic Flux Analysis**
+# **Quantification of Hepatic Fuel Usage with <sup>13</sup>C-Metabolic Flux Analysis**
 
 ## 🧭 Overview
 
-This repository contains the computational framework used to quantify **hepatic energy metabolism and fuel utilization** through **in vivo ^13^C metabolic flux analysis (MFA)**.
+This repository contains the computational framework used to quantify **hepatic energy metabolism and fuel utilization** through **in vivo <sup>13</sup>C metabolic flux analysis (MFA)**.
 
 The framework integrates multiple isotope-tracing experiments with an Elementary Metabolite Unit (EMU)-based model of the liver, lumped peripheral tissues, and blood circulation. The models estimate hepatic metabolic fluxes under fasting and refeeding conditions and progressively incorporate additional tracer information, including hepatic triacylglycerol kinetics and dietary amino-acid tracing.
 
@@ -12,7 +12,7 @@ The framework integrates multiple isotope-tracing experiments with an Elementary
 
 The 🗂️ **`data`** folder serves as the central data hub directly accessed by the MFA models. It contains the circulating-nutrient tracing data reanalyzed from our previous work (Hui et al., *Cell Metabolism*, 2020). It also contains the compiled and finalized cleaned datasets used as direct model inputs.
 
-The 🗂️ **`liver TAG tracing kinetics`** folder contains the linoleate pulse–chase data, and the 🗂️ **`Amino acid tracing`** folder contains the ^13^C-protein tracing data. Cleaned datasets generated from both folders are exported to the central 🗂️ **`data`** folder before being read by the corresponding MFA models.
+The 🗂️ **`liver TAG tracing kinetics`** folder contains the linoleate pulse–chase data, and the 🗂️ **`Amino acid tracing`** folder contains the <sup>13</sup>C-protein tracing data. Cleaned datasets generated from both folders are exported to the central 🗂️ **`data`** folder before being read by the corresponding MFA models.
 
 ---
 
