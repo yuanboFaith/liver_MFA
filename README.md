@@ -22,17 +22,17 @@ The five finalized model folders are organized by nutritional state and increasi
 
 ### Fasted State
 
-🗂️ **`LvM_Fasted`** Base fasted-state MFA model integrating circulating nutrient tracers to quantify hepatic metabolic fluxes and fuel utilization.
+🗂️ **`LvM_Fasted`**  Base model integrating circulating nutrient tracers to quantify hepatic metabolic fluxes and fuel utilization.
 
-🗂️ **`LvM_Fasted_TAGkinetics`** Expanded fasted-state model incorporating linoleate pulse–chase kinetics to deconvolute oxidation of circulating fatty acids and hepatic triacylglycerol.
+🗂️ **`LvM_Fasted_TAGkinetics`** Expanded model incorporating linoleate pulse–chase kinetics to deconvolute oxidation of circulating fatty acids and hepatic triacylglycerol.
 
 ### Refed State
 
-🗂️ **`LvM_Refed`** Base refed-state MFA model integrating circulating nutrient tracers to quantify hepatic metabolism during refeeding.
+🗂️ **`LvM_Refed`** Base model integrating circulating nutrient tracers to quantify hepatic metabolism during refeeding.
 
-🗂️ **`LvM_Refed_TAGkinetics`** Expanded refed-state model incorporating linoleate pulse–chase kinetics to deconvolute oxidation of circulating fatty acids and hepatic triacylglycerol.
+🗂️ **`LvM_Refed_TAGkinetics`** Expanded model incorporating linoleate pulse–chase kinetics to deconvolute oxidation of circulating fatty acids and hepatic triacylglycerol.
 
-🗂️ **`LvM_Refed_TAGkinetics_portalAAs`** The most comprehensive refed-state model, further incorporating dietary protein and portal amino-acid tracing to quantify the contribution of dietary amino acids to hepatic energy metabolism.
+🗂️ **`LvM_Refed_TAGkinetics_portalAAs`** The full model further incorporating dietary protein tracing to quantify the contribution of dietary amino acids to hepatic energy metabolism.
 
 ---
 
@@ -42,13 +42,13 @@ Each finalized model folder follows a numbered computational workflow. Files end
 
 
 
-Using the 🗂️ **`LvM_Fasted`** folder as the representative example:
+Using the 🗂️ **`LvM_Fasted`** model as a representative example:
 
 
 
 #### Step 1 — Supplementary Functions
 
-📝 **`1_supplement_function.R`** defines utility functions required throughout the iterative MFA workflow, including numerical matrix operations, data-structure conversion, and replacement of flux notation with numerical flux values.
+📝 **`1_supplement_function.R`** defines utility functions required throughout the  MFA workflow, including numerical matrix operations, data-structure conversion, and replacement of flux notation with numerical flux values.
 
 #### Step 2 — Stoichiometric and EMU Calculator
 

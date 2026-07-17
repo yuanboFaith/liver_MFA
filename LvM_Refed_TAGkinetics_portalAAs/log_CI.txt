@@ -13877,3 +13877,1667 @@ reaction #14; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
 reaction #29; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
 reaction #8; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
 reaction #21; stage UB; binary index 3; optim.step 6; tracer 13CLinoKinI
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinE
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13CLinoKinJ
+net flux v81-v79; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinJ
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinG
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinG
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinJ
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+net flux v5-v6; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinJ
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinJ
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13CLinoKinJ
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinF
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAb
+net flux v81-v79; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAb
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
+net flux v5-v6; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAb
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAb
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAb
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAb
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinG
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAc
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+net flux v81-v79; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAc
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+net flux v5-v6; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAc
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAc
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAc
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAc
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAd
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+net flux v81-v79; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAd
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAd
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+net flux v5-v6; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAd
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAd
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAd
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAe
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+net flux v81-v79; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAe
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+net flux v5-v6; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAe
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAe
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAe
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAe
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAf
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+net flux v81-v79; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAf
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+net flux v5-v6; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAf
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAf
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAf
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAf
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAj
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+net flux v81-v79; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAj
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+net flux v5-v6; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAj
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAj
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAj
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAj
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+net flux v87-v89; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+net flux v75-v73; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAk
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAk
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAk
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAk
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAk
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAk
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #27; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLac
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #91; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #10; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #55; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+reaction #59; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #87; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #85; stage UB; binary index 3; optim.step 2; tracer 13ChpAAl
+reaction #12; stage UB; binary index 4; optim.step 2; tracer 13ChpAAl
+reaction #70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #83; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #68; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #23; stage UB; binary index 4; optim.step 1; tracer 13ChpAAl
+reaction #5; stage UB; binary index 3; optim.step 4; tracer 13ChpAAl
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #75; stage UB; binary index 3; optim.step 4; tracer 13ChpAAl
+reaction #21; stage UB; binary index 3; optim.step 6; tracer 13ChpAAl
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #57; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #66; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #64; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CGlc
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CGlc
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CGlc
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CGlc
+reaction #14; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #29; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CGlc
+# A tibble: 1 × 3
+  flux.index flux.value  cost
+       <dbl>      <dbl> <dbl>
+1         21      3441. 0.121
+reaction #21; stage UB; binary index 4
+h =  1720.7
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CGlc
+reaction #8; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLac
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CAla
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLac
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #52; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLac
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLac
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLac
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLac
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLac
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLac
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLac
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CAla
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CGln
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLac
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLac
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CGlycerol
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CGlycerol
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CGlycerol
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CGlycerol
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CGlycerol
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CGlycerol
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CGln
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CAla
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CAla
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLac
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CAla
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CAla
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CAla
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CAla
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CAla
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CAla
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CGln
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CGln
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CGln
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CGln
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CGln
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CGln
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CGln
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CGln
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CGln
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CGln
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CHB
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CGln
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CAla
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CHB
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CHB
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CHB
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CHB
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CHB
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CHB
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CHB
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CGln
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLac
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinA
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CAla
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinA
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinA
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinA
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinA
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinA
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinB
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinB
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinB
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinB
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinB
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinB
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CAla
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CHB
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinC
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinC
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinC
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinC
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinC
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinC
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinD
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinD
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinD
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinD
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinD
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinD
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v81-v79; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v87-v89; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+net flux v75-v73; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinE
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinE
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinE
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinE
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinE
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinE
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLac
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLac
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinF
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinF
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinF
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinF
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinF
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinF
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CGln
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CHB
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinG
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinG
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinG
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinG
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinG
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinG
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinH
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinH
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinH
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinH
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinH
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinH
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinI
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinI
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinI
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinI
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinI
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinI
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinH
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinH
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinH
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinI
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinH
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinI
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinI
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13CLinoKinJ
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinJ
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinJ
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinJ
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinI
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinJ
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinJ
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinJ
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinJ
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13CLinoKinJ
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAb
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinJ
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAb
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAb
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAc
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAb
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAc
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAc
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAb
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAb
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAb
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAd
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAb
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAc
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAd
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAb
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAd
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAe
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAd
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAe
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAe
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinG
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAf
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAe
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAf
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAc
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAf
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAc
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAc
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAj
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAc
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAf
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAj
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAc
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAc
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAj
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAk
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAj
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAk
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAk
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinH
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+net flux v81-v79; stage UB; binary index 4; optim.step 5; tracer 13ChpAAl
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 4; optim.step 5; tracer 13ChpAAl
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAd
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+net flux v87-v89; stage UB; binary index 4; optim.step 5; tracer 13ChpAAl
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAd
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAd
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAd
+# A tibble: 1 × 3
+  flux.index flux.value  cost
+  <chr>           <dbl> <dbl>
+1 81-79            29.8 0.121
+net flux v81-v79; stage UB; binary index 5
+h =  14.92
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CGlc
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAd
+net flux v75-v73; stage UB; binary index 4; optim.step 5; tracer 13ChpAAl
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAd
+# A tibble: 1 × 3
+  flux.index flux.value  cost
+  <chr>           <dbl> <dbl>
+1 5-6              153. 0.121
+net flux v5-v6; stage UB; binary index 5
+h =  53.07
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CGlc
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+# A tibble: 1 × 3
+  flux.index flux.value  cost
+  <chr>           <dbl> <dbl>
+1 87-89            14.0 0.121
+net flux v87-v89; stage UB; binary index 5
+h =  2.33
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CGlc
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLac
+# A tibble: 1 × 3
+  flux.index flux.value  cost
+  <chr>           <dbl> <dbl>
+1 75-73            96.7 0.121
+net flux v75-v73; stage UB; binary index 5
+h =  16.11
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLac
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLac
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinI
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAe
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CGlycerol
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLac
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CGlycerol
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAe
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CGlycerol
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAe
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAe
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAe
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAe
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CAla
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CGlycerol
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CAla
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CAla
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CGln
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CAla
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CGln
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CGln
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinJ
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAf
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CHB
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CGln
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CHB
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAf
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAf
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CHB
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAf
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAf
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAf
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinA
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CHB
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinA
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinA
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinA
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinB
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinB
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAj
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinC
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAj
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinC
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinB
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAj
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinC
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAj
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAj
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAj
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinD
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinD
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinC
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinD
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinE
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinE
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinD
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinE
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAc
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAk
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinF
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAk
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinF
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinE
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAk
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAk
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinF
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAk
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAk
+reaction #27; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinG
+reaction #10; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinF
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinG
+reaction #91; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinG
+reaction #55; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinH
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinG
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinH
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAd
+reaction #59; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinH
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #87; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #85; stage UB; binary index 3; optim.step 3; tracer 13ChpAAl
+reaction #83; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinI
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #12; stage UB; binary index 4; optim.step 3; tracer 13ChpAAl
+reaction #57; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+reaction #21; stage UB; binary index 4; optim.step 1; tracer 13ChpAAl
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinI
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinH
+reaction #68; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #23; stage UB; binary index 4; optim.step 2; tracer 13ChpAAl
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinI
+reaction #5; stage UB; binary index 3; optim.step 5; tracer 13ChpAAl
+reaction #75; stage UB; binary index 3; optim.step 5; tracer 13ChpAAl
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinJ
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinJ
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinI
+reaction #66; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinJ
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAb
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAb
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13CLinoKinJ
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAe
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #64; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAb
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CGlc
+reaction #61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #29; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAc
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CGlc
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+reaction #14; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CGlc
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAc
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAb
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CGlc
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAc
+# A tibble: 1 × 3
+  flux.index flux.value  cost
+       <dbl>      <dbl> <dbl>
+1         75       131. 0.122
+reaction #75; stage UB; binary index 4
+h =  13.06
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CGlc
+# A tibble: 1 × 3
+  flux.index flux.value  cost
+       <dbl>      <dbl> <dbl>
+1          5       404. 0.121
+reaction #5; stage UB; binary index 4
+h =  121.09
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CGlc
+reaction #8; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLac
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAd
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAd
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAc
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLac
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAd
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLac
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAe
+reaction #52; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAd
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAe
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAf
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAe
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLac
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLac
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAf
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAe
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAf
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CLac
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CLac
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAf
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CLac
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAj
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CLac
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CLac
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAf
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAj
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAj
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAk
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAj
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAk
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAk
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAj
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+net flux v81-v79; stage UB; binary index 5; optim.step 1; tracer 13ChpAAl
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CGlycerol
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 5; optim.step 1; tracer 13ChpAAl
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v87-v89; stage UB; binary index 5; optim.step 1; tracer 13ChpAAl
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CGlycerol
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CGlycerol
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CGlc
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CGlycerol
+net flux v75-v73; stage UB; binary index 5; optim.step 1; tracer 13ChpAAl
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CGlc
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CGlycerol
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CGlc
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CGlycerol
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLac
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLac
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLac
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CAla
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAk
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CGlycerol
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CAla
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLac
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CGlycerol
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CGlycerol
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CAla
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CAla
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CAla
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CAla
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CGlycerol
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CAla
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CAla
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CAla
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CAla
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CGln
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CAla
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CGln
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CGln
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 4; tracer 13ChpAAl
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CGln
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CHB
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CGln
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CGln
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CGln
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CAla
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CHB
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CLac
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CHB
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CGln
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CGln
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CGln
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinA
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CGln
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CHB
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CGln
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinA
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CGln
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinA
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CGln
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinA
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinB
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinB
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CHB
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CHB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinC
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CHB
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinB
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CHB
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinC
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinC
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CHB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinD
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CHB
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CHB
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinC
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinD
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinD
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CHB
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CHB
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinE
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinD
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinE
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinE
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CLac
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CGln
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinF
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinE
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinA
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinF
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinF
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CHB
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CHB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinG
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinA
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinA
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinF
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinG
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinG
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinA
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinA
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinA
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinH
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinG
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinH
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinH
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinI
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CGlycerol
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CGln
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinH
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinI
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinI
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinB
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinJ
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinB
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinI
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinJ
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinJ
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinB
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinB
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinB
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAb
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13CLinoKinJ
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAb
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAb
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAc
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CAla
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAb
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CHB
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAc
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAc
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinC
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAd
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinC
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinC
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAc
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAd
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAd
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinC
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinC
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinC
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAe
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAd
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAe
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAe
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAf
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CGln
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAe
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAf
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAf
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinD
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAj
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinD
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAf
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinD
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAj
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAj
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinD
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinD
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinD
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAk
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAj
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAk
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAk
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v81-v79; stage UB; binary index 5; optim.step 2; tracer 13ChpAAl
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAk
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CHB
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v87-v89; stage UB; binary index 5; optim.step 2; tracer 13ChpAAl
+net flux v5-v6; stage UB; binary index 5; optim.step 2; tracer 13ChpAAl
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinE
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+net flux v81-v79; stage UB; binary index 5; optim.step 3; tracer 13CGlc
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinE
+net flux v75-v73; stage UB; binary index 5; optim.step 2; tracer 13ChpAAl
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinE
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v87-v89; stage UB; binary index 5; optim.step 3; tracer 13CGlc
+net flux v5-v6; stage UB; binary index 5; optim.step 3; tracer 13CGlc
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinE
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinE
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinE
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+net flux v81-v79; stage UB; binary index 5; optim.step 3; tracer 13CLac
+net flux v75-v73; stage UB; binary index 5; optim.step 3; tracer 13CGlc
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v87-v89; stage UB; binary index 5; optim.step 3; tracer 13CLac
+net flux v5-v6; stage UB; binary index 5; optim.step 3; tracer 13CLac
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v81-v79; stage UB; binary index 5; optim.step 3; tracer 13CGlycerol
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+net flux v75-v73; stage UB; binary index 5; optim.step 3; tracer 13CLac
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinA
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinF
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+net flux v87-v89; stage UB; binary index 5; optim.step 3; tracer 13CGlycerol
+net flux v5-v6; stage UB; binary index 5; optim.step 3; tracer 13CGlycerol
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+net flux v81-v79; stage UB; binary index 5; optim.step 3; tracer 13CAla
+reaction #29; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinC
+reaction #12; stage UB; binary index 4; optim.step 4; tracer 13CLinoKinF
+reaction #21; stage UB; binary index 4; optim.step 2; tracer 13CLinoKinF
+reaction #14; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+net flux v75-v73; stage UB; binary index 5; optim.step 3; tracer 13CGlycerol
+reaction #68; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #27; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #23; stage UB; binary index 4; optim.step 3; tracer 13CLinoKinF
+net flux v87-v89; stage UB; binary index 5; optim.step 3; tracer 13CAla
+net flux v5-v6; stage UB; binary index 5; optim.step 3; tracer 13CAla
+reaction #5; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinF
+reaction #75; stage UB; binary index 4; optim.step 1; tracer 13CLinoKinF
+reaction #8; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #10; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #91; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+net flux v81-v79; stage UB; binary index 5; optim.step 3; tracer 13CGln
+reaction #66; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+net flux v75-v73; stage UB; binary index 5; optim.step 3; tracer 13CAla
+reaction #55; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+net flux v87-v89; stage UB; binary index 5; optim.step 3; tracer 13CGln
+net flux v5-v6; stage UB; binary index 5; optim.step 3; tracer 13CGln
+reaction #64; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #59; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+sum of fluxes v65+v66+v67+v68+v69+v70; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
+sum of fluxes v55+v56+v57+v58+v59+v60+v61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinB
+reaction #52; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinE
+reaction #85; stage UB; binary index 3; optim.step 4; tracer 13CLinoKinG
+reaction #87; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #83; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+reaction #61; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinF
+reaction #57; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinG
+net flux v81-v79; stage UB; binary index 5; optim.step 3; tracer 13CHB
+sum of fluxes v52+v53+v54; stage UB; binary index 4; optim.step 5; tracer 13CLinoKinD
