@@ -224,7 +224,7 @@ func.stoicEMU <- function(
   # the substrate that feeds into the system
   
   # "TAGgly.W" for blood glycerol, and "TAGLino" for blood linoleate
-  substrate <- c("srcAcCoA", "Glycogen.Lv", "Glycogen.M", "TAGgly.W", "TAGLino", "protein") # global
+  substrate <- c("srcAcCoA", "Glycogen.Lv", "Glycogen.M", "TAGgly.W", "TAGLino.W", "protein") # global
   substrate <- c(substrate, myTracer) # add the tracer input
   
   
@@ -466,7 +466,7 @@ func.stoicEMU <- function(
       
       # scenario 2: if substrate is TAG.W, 
       # replace its labeling using the serum linoleate labeling to create this serum steady state (so independent of liver TAG labeling)
-      if ( str_detect(i_EMU, "TAG.W") ) {
+      if ( str_detect(i_EMU, "TAGLino.W") ) {
         # print(i_EMU)
         # stop()
         
@@ -487,7 +487,7 @@ func.stoicEMU <- function(
       }
       
       
-      # scenario 3: if substrate is Liver TAG, then extract its labeling directly from the labeling dataset
+      # scenario 3: if substrate is Liver TAG, then set its labeling directly to measured TAG labeling 
       if ( str_detect(i_EMU, "TAGLino.Lv") ) {
         # print(i_EMU)
         # stop()

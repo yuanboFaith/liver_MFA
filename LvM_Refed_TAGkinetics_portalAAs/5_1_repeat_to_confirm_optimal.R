@@ -19,7 +19,7 @@ rstudioapi::getActiveDocumentContext()$path %>% dirname() %>% setwd(); getwd()
 list.files(path = "repeat_results", pattern = "\\.RData$", full.names = TRUE) %>% file.remove() 
 
 
-for (repeat_index in 1:15) {
+for (repeat_index in 1:20) {
   # repeat_index=1
   # calculate total CO2 per organ
   message("\nrepeat MFA core procedure to confirm optimal: repeat #", repeat_index )
