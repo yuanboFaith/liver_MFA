@@ -1,2 +1,0 @@
-
-[1] "Congrats! Selected the best repeat with the minimal cost: repeat_4"
