@@ -239,7 +239,7 @@ d.obs.simu %>%
   guides(color = guide_legend(override.aes = list(size = 5, fontface = "bold"))) +
   labs(color = NULL) +
   scale_color_manual(values = myColors) + 
-  coord_equal(xlim = c( 0, .1), ylim = c(0, .1)) 
+  coord_equal(xlim = c( 0, .05), ylim = c(0, .05)) 
 
 ggsave(filename = "./plots/sim vs obs low range faceted_MiceReplicates.pdf", width = 9, height = 5)
 
